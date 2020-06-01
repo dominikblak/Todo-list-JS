@@ -1,20 +1,20 @@
-body {
+.mySite {
   background-color: rgb(53, 58, 74);
   font-family: "Montserrat", sans-serif;
   color: white;
   box-sizing: border-box;
 }
-h1 {
+.hello {
   text-align: center;
   margin: 50px 0;
 }
-img {
+.photo img {
   width: 300px;
   text-align: center;
   margin: 30px auto;
   display: block;
 }
-p {
+.aboutMe p {
   text-align: center;
   margin: 20px 100px;
   line-height: 30px;
@@ -22,7 +22,9 @@ p {
 .btn {
   text-align: center;
 }
-button {
+.font,
+.background,
+.removePhoto {
   display: inline-block;
   padding: 5px 20px;
   border: 2px solid black;
@@ -34,11 +36,16 @@ button {
   font-size: 30px;
   cursor: pointer;
 }
-button:hover {
+
+.btn button:hover {
   background-color: rgb(20, 20, 20);
   color: white;
 }
 .whiteTheame {
   background-color: white;
   color: black;
+}
+.colorFont {
+  color: rgb(0, 128, 0);
+  background-color: tomato;
 }

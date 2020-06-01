@@ -11,22 +11,32 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Witam !</h1>
-    <img src="img/wifibooth_3264-IMG_2806kolor.jpg" alt="Moje zdjęcie" />
-    <br />
-
-    <p>
-      Mam na imię Dominik. Obecnie mieszkam i pracuję w Krakowie. Informatyka to
-      także moje hobby, dlatego postanowiłem połączyć przyjemne z pożytecznym i
-      się przebranżowić. Miałem już styczność z Javą i Angularem, jednak
-      najbardziej przypdał mi do gustu JavaScript i React.
-    </p>
+    <h1 class="hello">Witam !</h1>
+    <div class="photo">
+      <img src="img/wifibooth_3264-IMG_2806kolor.jpg" alt="Moje zdjęcie" />
+      <br />
+    </div>
+    <div class="aboutMe">
+      <p>
+        <b>Mam na imię Dominik.</b> <br />
+        Obecnie mieszkam i pracuję w Krakowie. Informatyka to także moje hobby,
+        dlatego postanowiłem połączyć przyjemne z pożytecznym i się
+        przebranżowić. Miałem już styczność z <i>Javą</i> oraz
+        <i>Angularem,</i>
+        <strong
+          >jednak najbardziej przypdał mi do gustu <i>JavaScript</i> i
+          <i>React.</i></strong
+        >
+        <br />
+        <em>Użyj przycisków !</em>
+      </p>
+    </div>
     <div class="btn">
-      <button id="projects">Projekty</button>
-      <button id="background">Zmień tło</button>
-      <button id="contact">Kontakt</button>
+      <button class="font">Kolor czcionki</button>
+      <button class="background">Zmień tło</button>
+      <button class="removePhoto">Usuń zdjęcie</button>
     </div>
     <div class="showProjects"></div>
-    <script src="js/script.js"></script>
+    <script defer src="js/script.js"></script>
   </body>
 </html>
