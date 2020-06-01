@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(53, 58, 74);
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+img {
+  width: 300px;
+  text-align: center;
+  margin: 30px auto;
+  display: block;
+}
+p {
+  text-align: center;
+  margin: 20px 100px;
+  line-height: 30px;
+}
+.btn {
+  text-align: center;
+}
+button {
+  display: inline-block;
+  padding: 5px 20px;
+  border: 2px solid black;
+  text-transform: uppercase;
+  background-color: #fff;
+  font-weight: bold;
+  margin: 10px 20px;
+  transition: 0.3s;
+  font-size: 30px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+.whiteTheame {
+  background-color: white;
+  color: black;
+}
