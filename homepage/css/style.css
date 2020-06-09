@@ -10,21 +10,23 @@ html {
   background-color: rgb(53, 58, 74);
   font-family: "Montserrat", sans-serif;
   color: white;
-  box-sizing: border-box;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
 }
 .hello {
   text-align: center;
-  margin: 50px 0;
 }
+
 .photo img {
   width: 300px;
   text-align: center;
-  margin: 30px auto;
+  margin: 0px auto;
   display: block;
 }
 .aboutMe p {
   text-align: center;
-  margin: 20px 100px;
+  margin: 0px, auto;
   line-height: 30px;
 }
 .btn {
@@ -39,7 +41,7 @@ html {
   text-transform: uppercase;
   background-color: #fff;
   font-weight: bold;
-  margin: 10px 20px;
+  margin: 0, auto;
   transition: 0.3s;
   font-size: 30px;
   cursor: pointer;
@@ -56,4 +58,5 @@ html {
 .colorFont {
   color: rgb(0, 128, 0);
   background-color: tomato;
+  margin: 0 auto;
 }
