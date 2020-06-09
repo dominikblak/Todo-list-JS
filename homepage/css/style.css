@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
 .mySite {
   background-color: rgb(53, 58, 74);
   font-family: "Montserrat", sans-serif;
