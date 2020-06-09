@@ -19,6 +19,10 @@ const changeBackground = () => {
 const addPhoto = () => {
   photo.append(img);
   btnPhoto.innerHTML = "Usuń zdjęcie";
+  btnPhoto.addEventListener("click", () => {
+    photo.removeChild(img);
+    btnPhoto.innerHTML = "Pokaż zdjęcie";
+  });
 };
 btnFont.addEventListener("click", changeColorFont);
 btnBackground.addEventListener("click", changeBackground);
