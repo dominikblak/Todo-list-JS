@@ -29,12 +29,13 @@ html {
   margin: 0px, auto;
   line-height: 30px;
 }
-.btn {
+.btn button {
   text-align: center;
 }
 .font,
 .background,
 .removePhoto {
+  margin: 30px auto;
   display: inline-block;
   padding: 5px 20px;
   border: 2px solid black;
