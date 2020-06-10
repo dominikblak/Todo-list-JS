@@ -13,6 +13,7 @@ html {
   max-width: 1000px;
   margin: 0 auto;
   text-align: center;
+  overflow-x: auto;
 }
 .hello {
   text-align: center;
@@ -60,4 +61,11 @@ html {
   color: rgb(0, 128, 0);
   background-color: tomato;
   margin: 0 auto;
+}
+
+.footer p {
+  position: relative;
+  background-color: lightslategrey;
+  margin: 0 auto;
+  padding: 15px;
 }
