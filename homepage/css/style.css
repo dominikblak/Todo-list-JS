@@ -1,5 +1,11 @@
 html {
   box-sizing: border-box;
+  height: 100%;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 *,
 ::after,
@@ -14,6 +20,13 @@ html {
   margin: 0 auto;
   text-align: center;
   overflow-x: auto;
+  padding: 0;
+  min-height: 100%;
+  position: relative;
+}
+.main {
+  padding: 10px;
+  padding-bottom: 60px;
 }
 .hello {
   text-align: center;
@@ -62,7 +75,11 @@ html {
   background-color: tomato;
   margin: 0 auto;
 }
-
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 .footer p {
   position: relative;
   background-color: lightslategrey;
