@@ -2,11 +2,7 @@ html {
   box-sizing: border-box;
   height: 100%;
 }
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
+
 *,
 ::after,
 ::before {
@@ -72,7 +68,6 @@ body {
 }
 .colorFont {
   color: rgb(0, 128, 0);
-  background-color: tomato;
   margin: 0 auto;
 }
 .footer {
