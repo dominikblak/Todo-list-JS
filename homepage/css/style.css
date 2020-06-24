@@ -81,3 +81,9 @@ html {
   margin: 0 auto;
   padding: 15px;
 }
+.table {
+  font-family: "Roboto", sans-serif;
+}
+.tableCell {
+  border: 1px solid #ccc;
+}
