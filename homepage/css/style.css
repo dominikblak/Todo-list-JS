@@ -67,7 +67,7 @@ html {
   color: black;
 }
 .colorFont {
-  color: rgb(0, 128, 0);
+  color: coral;
   margin: 0 auto;
 }
 .footer {
@@ -83,7 +83,24 @@ html {
 }
 .table {
   font-family: "Roboto", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
 }
 .tableCell {
   border: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+.tableHeader {
+  background-color: turquoise;
+  color: white;
+  font-weight: normal;
+}
+.caption {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.tableRow:nth-child(even) {
+  background-color: rgba(238, 238, 238, 0.432);
 }

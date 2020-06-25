@@ -8,7 +8,7 @@ const about = document.querySelector(".aboutMe");
 const photo = document.querySelector(".photo");
 
 const changeColorFont = () => {
-  about.classList.toggle("colorFont");
+  document.body.classList.toggle("colorFont");
 };
 const changeBackground = () => {
   document.body.classList.toggle("whiteTheame");
