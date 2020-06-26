@@ -86,6 +86,7 @@ html {
   font-family: "Roboto", sans-serif;
   border-collapse: collapse;
   width: 100%;
+  overflow-x: auto;
 }
 .tableCell {
   border: 1px solid #ccc;
@@ -124,7 +125,7 @@ html {
 .listNavigation li {
   display: inline;
   padding: 5px;
-  text-decoration: none;
+  list-style: none;
   text-align: center;
 }
 .listNavigation a {
