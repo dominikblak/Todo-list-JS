@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zadanie -tydzień 3</title>
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap"
       rel="stylesheet"
     />
@@ -13,6 +19,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/article.css" />
+    <link rel="stylesheet" href="css/introduction.css" />
   </head>
   <body>
     <main class="main">
@@ -24,13 +32,11 @@
           <li><a href="#tabela">Tabela</a></li>
         </ul>
       </nav>
-      <section class="buttons">
-        <h1 class="hello">Witam !</h1>
-        <div class="photo">
-          <img src="img/js.png" alt="" />
-          <br />
-        </div>
-        <section id="o-mnie" class="aboutMe">
+      <section class="introduction">
+        <h1 class="introduction__header">Witam !</h1>
+        <img src="img/js.png" class="introduction__photo" alt="" />
+        <br />
+        <section id="o-mnie" class="introduction__paragraph">
           <p>
             <b>Mam na imię Dominik.</b> <br />
             Obecnie mieszkam i pracuję w Krakowie. Informatyka to także moje
@@ -45,21 +51,23 @@
             <em>Użyj przycisków !</em>
           </p>
         </section>
-        <div class="btn">
-          <button class="font">Kolor czcionki</button>
-          <button class="background">Zmień tło</button>
-          <button class="removePhoto">Ukryj zdjęcie</button>
+        <div class=".introduction__buttons">
+          <button class="introduction__buttons--font">Kolor czcionki</button>
+          <button class="introduction__buttons--background">Zmień tło</button>
+          <button class="introduction__buttons--removePhoto">
+            Ukryj zdjęcie
+          </button>
         </div>
         <div class="showProjects"></div>
       </section>
       <section class="peaks">
         <article class="article">
-          <h1 id="artykul">Korona Ziemi</h1>
+          <h1 class="article__header" id="artykul">Korona Ziemi</h1>
           <em
             >Źródło :
             "https://www.e-horyzont.pl/blog/najwyzsze-szczyty-kontynentow-korona-swiata"</em
           >
-          <p>
+          <p class="article__paragraph">
             Mianem Korony Świata zwykło określać się najwyższe szczyty
             kontynentów istniejących na Ziemi. Nazwa wywodzi się z języka
             angielskiego, gdzie Korona Ziemi oznacza „Siedem szczytów”. Choć
@@ -69,8 +77,10 @@
             Świata i które z najwyższych szczytów kontynentów są najtrudniejsze
             do zdobycia? Tego dowiecie się z naszego artykułu.
           </p>
-          <h2>Zdobywcy najwyższych szczytów kontynentów</h2>
-          <p>
+          <h2 class="article__header">
+            Zdobywcy najwyższych szczytów kontynentów
+          </h2>
+          <p class="article__paragraph">
             Pierwszą osobą, która zdobyła Koronę Ziemi „w wersji light”, był
             Richard Bass, amerykański biznesmen i miłośnik wspinaczki po górach,
             który za cel obrał sobie zdobycie najwyższych szczytów kontynentów
@@ -95,13 +105,15 @@
             Carstensz.
           </p>
           <img
-            class="imgEverest"
+            class="article__photo"
             src="img/mount-everest.jpg"
             alt="Mount Everest"
           />
-          <p>Mount Everest</p>
-          <h2 id="skala">Skala trudności szczytów Korony Ziemi</h2>
-          <p>
+          <p class="article__paragraph">Mount Everest</p>
+          <h2 class="article__header" id="skala">
+            Skala trudności szczytów Korony Ziemi
+          </h2>
+          <p class="article__paragraph">
             Uszeregowanie najwyższych szczytów kontynentów według stopnia
             trudności wciąż stanowi przedmiot licznych dyskusji. Choć nie ulega
             wątpliwości, że najtrudniejszym szczytem Korony Ziemi jest Everest,
@@ -118,7 +130,7 @@
             Bella odnosi się więc przede wszystkim do najłatwiejszych dróg
             wejścia na szczyty Korony Ziemi i nie uwzględnia szczytu Mont Blanc.
           </p>
-          <ul class="listPeaks">
+          <ul class="article__list">
             <li>Góra Kościuszki: 1 pkt;</li>
             <li>Kilimandżaro: 2 pkt;</li>
             <li>Elbrus: 3 pkt.;</li>
@@ -129,7 +141,7 @@
               10 pkt.
             </li>
           </ul>
-          <p>
+          <p class="article__paragraph">
             Skala trudności Bella nie odpowiada jednak również skali
             niebezpieczeństwa dla życia, na jaką narażeni są wspinacze chcący
             zdobyć najwyższe szczyty kontynentów. Najczęściej do wypadków

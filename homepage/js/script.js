@@ -1,11 +1,13 @@
 console.log("Witaj Neo w Matriksie !");
 const block = document.body;
 block.classList.add("mySite");
-const btnFont = document.querySelector(".font");
-const btnBackground = document.querySelector(".background");
-const btnPhoto = document.querySelector(".removePhoto");
-const about = document.querySelector(".aboutMe");
-const photo = document.querySelector(".photo");
+const btnFont = document.querySelector(".introduction__buttons--font");
+const btnBackground = document.querySelector(
+  ".introduction__buttons--background"
+);
+const btnPhoto = document.querySelector(".introduction__buttons--removePhoto");
+const about = document.querySelector(".introduction");
+const photo = document.querySelector(".introduction__photo");
 
 const changeColorFont = () => {
   document.body.classList.toggle("colorFont");
