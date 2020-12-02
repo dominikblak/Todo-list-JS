@@ -49,32 +49,10 @@ html {
   margin: 0 auto;
   padding: 15px;
 }
-.table {
-  font-family: "Roboto", sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  overflow-x: auto;
-}
-.tableCell {
-  border: 1px solid #ccc;
-  padding: 5px;
-  text-align: center;
-}
-.tableHeader {
-  background-color: turquoise;
-  color: white;
-  font-weight: normal;
-}
+
 .caption {
   text-align: center;
   margin-bottom: 10px;
-}
-
-.tableRow:nth-child(even) {
-  background-color: rgba(238, 238, 238, 0.432);
-}
-.tableRow:hover {
-  color: turquoise;
 }
 
 .listNavigation li {
