@@ -22,12 +22,39 @@
     <section class="counter">
       <h1 class="counter__header">Przelicznik walut</h1>
       <form action="" class="counter__form">
-        <legend>Twoje dane</legend>
-        <label for=""
-          >Twoja kwota :
-          <input type="number" name="amount" min="0" step="0.1" id="" />
-        </label>
-        <button>Przelicz</button>
+        <fieldset>
+          <legend>Twoje dane</legend>
+          <p>
+            <label for="amountid"
+              >Twoja kwota :
+              <input
+                class="counter__files"
+                type="number"
+                name="amount"
+                min="0"
+                step="0.1"
+                id="amountid"
+              />
+            </label>
+          </p>
+          <p>
+            <label for="currency">
+              Wybierz walutę :
+              <select
+                name="currency_choice"
+                id="currncy"
+                class="counter__files--margin"
+              >
+                <option value="euro" selected>Euro</option>
+                <option value="dolars">USD</option>
+                <option value="ugx">Szyling Ugandyjski</option>
+              </select>
+            </label>
+          </p>
+          <p>
+            <button class="counter__btn">Przelicz</button>
+          </p>
+        </fieldset>
       </form>
     </section>
     <script defer src="js/script.js"></script>
