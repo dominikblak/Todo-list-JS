@@ -18,9 +18,12 @@
 }
 .counter__files {
   margin-top: 10px;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .counter__files--margin {
   margin-left: 43px;
+}
+.counter__value {
+  color: red;
 }
