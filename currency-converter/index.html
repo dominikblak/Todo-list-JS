@@ -21,14 +21,14 @@
   <body>
     <section class="counter">
       <h1 class="counter__header">Przelicznik walut</h1>
-      <form action="" class="counter__form">
+      <form action="" class="counter__form js-form">
         <fieldset>
           <legend>Twoje dane</legend>
           <p>
             <label for="amountid"
               >Twoja kwota w zł :
               <input
-                class="counter__files"
+                class="counter__files js-files"
                 type="number"
                 name="amount"
                 min="0"
@@ -44,13 +44,13 @@
               <select
                 name="currency_choice"
                 id="currncy"
-                class="counter__files--margin"
+                class="counter__files counter__files--margin js-counter"
               >
-                <option value="euro" class="counter__files__euro" selected>
+                <option value="euro" class="counter__euro" selected>
                   Euro
                 </option>
-                <option value="usd" class="counter__files__usd">USD</option>
-                <option value="ugx" class="counter__files__ugx">
+                <option value="usd" class="counter__usd">USD</option>
+                <option value="ugx" class="counter__ugx">
                   Szekle SanEscobarskie
                 </option>
               </select>
@@ -59,7 +59,9 @@
           <p>
             <button class="counter__btn">Przelicz</button>
           </p>
-          <p>Twoja wartość : <strong class="counter__value"></strong></p>
+          <p>
+            Twoja wartość : <strong class="counter__value js-value"></strong>
+          </p>
         </fieldset>
       </form>
     </section>
