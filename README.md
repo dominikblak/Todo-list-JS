@@ -1,4 +1,4 @@
-# Frontend
+# Frontend -YC
 
 ## Description
 A collection of projects based on frontend technologies
