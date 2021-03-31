@@ -1,17 +1,26 @@
 # Frontend -YC
-
+Projects from the "Frontend Developer od podstaw - YouCode" course
 ## Description
-A collection of projects based on frontend technologies
+Projects and homework divided into weeks with a description.
 
-## hompage
-responsive homepage
+## Week 4
+###responsive homepage : 
+-BEM
+-CSS (tabels,list,normalize)
+-JS
 #### Demo:
 https://dominikblak.github.io/Frontend-YC/Tydzien%203/homepage/
 
-CodeSandbox :
+####CodeSandbox :
 https://codesandbox.io/s/homepage-0nvoq
-## currency-converter
-#### Demo: 
+
+### currency-converter :
+JS:
+-numbers
+-forms
+-strings
+-switch
+#### Demo : 
 https://dominikblak.github.io/Frontend-YC/Tydzien%204/currency-converter/
-CodeSanbox : 
+#### CodeSanbox : 
 https://codesandbox.io/s/currency-converter-3plt7
