@@ -2,7 +2,7 @@
 Projects from the "Frontend Developer od podstaw - YouCode" course
 ## Description
 Projects and homework divided into weeks with a description.
-* * * *
+
 
 ## Week 4
 ### Responsive Homepage : 
