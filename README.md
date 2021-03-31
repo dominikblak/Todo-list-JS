@@ -8,7 +8,8 @@ Projects and homework divided into weeks with a description.
 
 ## Week 4
 ******
-### Responsive Homepage : 
+### Responsive Homepage :
+Personal homepage
 - BEM
 - CSS (tabels,list,normalize)
 - JS
@@ -16,6 +17,7 @@ Projects and homework divided into weeks with a description.
 #### [CodeSandbox](https://codesandbox.io/s/homepage-0nvoq)
 ##
 ### Currency-converter :
+Currency converter
 JS:
 - numbers
 - forms
