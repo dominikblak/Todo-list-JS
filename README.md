@@ -13,7 +13,7 @@ Projects and homework divided into weeks with a description.
 - JS
 #### [Demo](https://dominikblak.github.io/Frontend-YC/Tydzien%203/homepage/)
 #### [CodeSandbox](https://codesandbox.io/s/homepage-0nvoq)
-----
+##
 ### Currency-converter :
 JS:
 - numbers
