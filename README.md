@@ -4,22 +4,22 @@ Projects from the "Frontend Developer od podstaw - YouCode" course
 Projects and homework divided into weeks with a description.
 
 ## Week 4
-###responsive homepage : 
--BEM
--CSS (tabels,list,normalize)
--JS
+### Responsive Homepage : 
+- BEM
+- CSS (tabels,list,normalize)
+- JS
 #### Demo:
 https://dominikblak.github.io/Frontend-YC/Tydzien%203/homepage/
 
-####CodeSandbox :
+#### CodeSandbox :
 https://codesandbox.io/s/homepage-0nvoq
 
-### currency-converter :
+### Currency-converter :
 JS:
--numbers
--forms
--strings
--switch
+- numbers
+- forms
+- strings
+- switch
 #### Demo : 
 https://dominikblak.github.io/Frontend-YC/Tydzien%204/currency-converter/
 #### CodeSanbox : 
