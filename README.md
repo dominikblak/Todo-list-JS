@@ -20,7 +20,6 @@ JS:
 - forms
 - strings
 - switch
-#### Demo : 
-https://dominikblak.github.io/Frontend-YC/Tydzien%204/currency-converter/
+#### [Demo](https://dominikblak.github.io/Frontend-YC/Tydzien%204/currency-converter/)
 #### CodeSanbox : 
 https://codesandbox.io/s/currency-converter-3plt7
