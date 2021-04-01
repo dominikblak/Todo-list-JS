@@ -13,7 +13,7 @@ Personal homepage
 - BEM
 - CSS (tabels,list,normalize)
 - JS
-#### [Demo](https://dominikblak.github.io/Frontend-YC/Tydzien%203/homepage/)
+#### [Demo](https://dominikblak.github.io/Frontend-YC/Tydzien-4/homepage/)
 #### [CodeSandbox](https://codesandbox.io/s/homepage-0nvoq)
 ##
 ### Currency-converter :
@@ -23,7 +23,7 @@ JS:
 - forms
 - strings
 - switch
-#### [Demo](https://dominikblak.github.io/Frontend-YC/Tydzien%204/currency-converter/)
+#### [Demo](https://dominikblak.github.io/Frontend-YC/Tydzien-4/homepage/)
 #### [CodeSanbox](https://codesandbox.io/s/currency-converter-3plt7)
 
 ## Week 5
