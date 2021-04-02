@@ -28,4 +28,10 @@ JS:
 
 ## Week 5
 ******
+### Responsive Homepage :
+Personal homepage
+HTML:
+- OpenGrpah
+- icon
 #### [Demo](https://dominikblak.github.io/Frontend-YC/Tydzien-5/homepage/)
+
