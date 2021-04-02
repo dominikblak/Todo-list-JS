@@ -28,3 +28,5 @@ JS:
 
 ## Week 5
 ******
+
+#### [Demo](https://dominikblak.github.io/Frontend-YC/Tydzien-5/currency-converter/)
