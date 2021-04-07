@@ -9,10 +9,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  /* max-width: 1000px;
-  margin: 0 auto; */
-
-  /* background-color: rgb(53, 58, 74); */
-  background: no-repeat url("../img/money_exchange.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/money_exchange.jpg) no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
 }
