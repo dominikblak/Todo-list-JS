@@ -9,7 +9,10 @@ html {
   box-sizing: inherit;
 }
 body {
-  max-width: 1000px;
-  margin: 0 auto;
-  background-color: rgb(53, 58, 74);
+  /* max-width: 1000px;
+  margin: 0 auto; */
+
+  /* background-color: rgb(53, 58, 74); */
+  background: no-repeat url("../img/money_exchange.jpg");
+  background-size: cover;
 }
