@@ -34,4 +34,9 @@ HTML:
 - OpenGrpah
 - icon
 #### [Demo](https://dominikblak.github.io/Frontend-YC/Tydzien-5/homepage/)
-
+##
+### Currency-converter :
+Currency converter
+CSS :
+- Background image
+#### [Demo](https://dominikblak.github.io/Frontend-YC/Tydzien-5/currency-converter/)
