@@ -1,4 +1,7 @@
-console.log("Witaj Neo w Matriksie !");
+function welcome() {
+  console.log("Witaj Neo w Matriksie ;-)");
+}
+welcome();
 const block = document.body;
 block.classList.add("mySite");
 const btnFont = document.querySelector(".introduction__buttons--font");
