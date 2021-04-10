@@ -38,17 +38,6 @@ html {
   color: coral;
   margin: 0 auto;
 }
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-.footer p {
-  position: relative;
-  background-color: lightslategrey;
-  margin: 0 auto;
-  padding: 15px;
-}
 
 .caption {
   text-align: center;
