@@ -2,7 +2,7 @@
   const calculateResult = (amountValue, choiceValue) => {
     const EuroRate = 4.47;
     const UsdRate = 3.68;
-    const UgxRate = 2.11;
+    const IsaRate = 2.11;
 
     switch (choiceValue) {
       case "EUR":
@@ -10,7 +10,7 @@
       case "USD":
         return amountValue * UsdRate;
       case "ISA":
-        return amountValue * UgxRate;
+        return amountValue * IsaRate;
     }
   };
   const upadteResultText = (amountValue, result, choiceValue) => {
