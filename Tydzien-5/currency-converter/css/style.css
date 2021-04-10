@@ -9,8 +9,16 @@ html {
   box-sizing: inherit;
 }
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/money_exchange.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/money_exchange.jpg) no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
+}
+a {
+  color: black;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: blue;
 }
