@@ -1,31 +1,31 @@
 {
-  let amountElement = document.querySelector(".js-files");
-  let formElement = document.querySelector(".js-form");
-  let choiceElement = document.querySelector(".js-counter");
-  let currencyValElement = document.querySelector(".js-value");
-  let result;
-
-  let EuroRate = 4.47;
-  let UsdRate = 3.68;
-  let UgxRate = 2.11;
-
-  formElement.addEventListener("submit", (e) => {
-    e.preventDefault();
-    let amountValue = +amountElement.value;
-    let choiceValue = choiceElement.value;
+  const calculateResult = (amountValue, choiceValue) => {
+    const EuroRate = 4.47;
+    const UsdRate = 3.68;
+    const UgxRate = 2.11;
 
     switch (choiceValue) {
       case "eur":
-        result = amountValue * EuroRate;
-        break;
+        return amountValue * EuroRate;
       case "usd":
-        result = amountValue * UsdRate;
-        break;
+        return amountValue * UsdRate;
       case "ugx":
-        result = amountValue * UgxRate;
-        break;
+        return amountValue * UgxRate;
     }
+  };
+  const init = () => {
+    const formElement = document.querySelector(".js-form");
+    formElement.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const amountElement = document.querySelector(".js-files");
+      const choiceElement = document.querySelector(".js-counter");
+      const currencyValElement = document.querySelector(".js-value");
+      const amountValue = +amountElement.value;
+      const choiceValue = choiceElement.value;
+      let result = calculateResult(amountValue, choiceValue);
 
-    currencyValElement.innerText = `${result.toFixed(2)} zł`;
-  });
+      currencyValElement.innerText = `${result.toFixed(2)} zł`;
+    });
+  };
+  init();
 }
