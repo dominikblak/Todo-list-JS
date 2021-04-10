@@ -5,17 +5,19 @@
     const UgxRate = 2.11;
 
     switch (choiceValue) {
-      case "eur":
+      case "EUR":
         return amountValue * EuroRate;
-      case "usd":
+      case "USD":
         return amountValue * UsdRate;
-      case "ugx":
+      case "ISA":
         return amountValue * UgxRate;
     }
   };
   const upadteResultText = (amountValue, result, choiceValue) => {
     const currencyValElement = document.querySelector(".js-value");
-    currencyValElement.innerText = `${amountValue.toFixed(2)} PLN = ${result.toFixed(2)} ${choiceValue}`;
+    currencyValElement.innerHTML = `${amountValue.toFixed(2)} PLN = <strong>${result.toFixed(
+      2
+    )} ${choiceValue}</strong>`;
   };
   const init = () => {
     const formElement = document.querySelector(".js-form");
