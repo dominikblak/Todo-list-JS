@@ -13,9 +13,12 @@
         return amountValue * UgxRate;
     }
   };
+  const upadteResultText = (currencyValElement, result) => {
+    currencyValElement.innerText = `${result.toFixed(2)} zł`;
+  };
   const init = () => {
     const formElement = document.querySelector(".js-form");
-    formElement.addEventListener("submit", (e) => {
+    const onFormSubmit = (e) => {
       e.preventDefault();
       const amountElement = document.querySelector(".js-files");
       const choiceElement = document.querySelector(".js-counter");
@@ -24,8 +27,9 @@
       const choiceValue = choiceElement.value;
       let result = calculateResult(amountValue, choiceValue);
 
-      currencyValElement.innerText = `${result.toFixed(2)} zł`;
-    });
+      upadteResultText(currencyValElement, result);
+    };
+    formElement.addEventListener("submit", onFormSubmit);
   };
   init();
 }
