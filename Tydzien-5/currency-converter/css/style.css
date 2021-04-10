@@ -9,9 +9,19 @@ html {
   box-sizing: inherit;
 }
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/money_exchange.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/money_exchange.jpg) repeat;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  max-width: 1000px;
+  margin: 0 auto;
+  /* text-align: center; */
+  overflow-x: auto;
+  padding: 0;
+  min-height: 100%;
+  position: relative;
+  line-height: 1.5;
 }
 a {
   color: black;
