@@ -26,4 +26,5 @@
 }
 .counter__value {
   color: red;
+  font-size: 1.4em;
 }
