@@ -33,11 +33,16 @@ Personal homepage
 HTML:
 - OpenGrpah
 - icon
+- functions JS
 #### [Demo](https://dominikblak.github.io/Frontend-YC/Tydzien-5/homepage/)
 #### [CodeSanbox](https://codesandbox.io/s/homepage-week-5-xkcbs)
 ##
 ### Currency-converter :
 Currency converter
 CSS :
+- OpenGrpah
+- icon
 - Background image
+- functions JS
 #### [Demo](https://dominikblak.github.io/Frontend-YC/Tydzien-5/currency-converter/)
+#### [CodeSanbox](https://codesandbox.io/s/currency-converter-week-5-y2zl3)
