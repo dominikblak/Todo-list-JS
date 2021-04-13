@@ -2,7 +2,7 @@
   text-align: center;
 }
 .introduction__photo {
-  width: 300px;
+  max-width: 300px;
   text-align: center;
   margin: 0px auto;
   display: block;
