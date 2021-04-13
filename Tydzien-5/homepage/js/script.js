@@ -10,8 +10,8 @@
   const btnPhoto = document.querySelector(".introduction__buttons--removePhoto");
   const about = document.querySelector(".introduction");
   const photo = document.querySelector(".introduction__photo");
-  const jsPhoto = document.querySelector(".introduction__photo--js");
-  const myPhoto = document.querySelector(".introduction__photo--my");
+  const jsLogo = document.querySelector(".js-jsLogo");
+  const myPhoto = document.querySelector(".js-myPhoto");
 
   const changeColorFont = () => {
     document.body.classList.toggle("colorFont");
@@ -21,7 +21,7 @@
   };
 
   const changePhoto = () => {
-    jsPhoto.classList.toggle("hidden");
+    jsLogo.classList.toggle("hidden");
     myPhoto.classList.toggle("hidden");
     if (myPhoto.classList.contains("hidden")) {
       btnPhoto.innerHTML = "Pokaż mnie";
