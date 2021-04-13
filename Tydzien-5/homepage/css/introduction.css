@@ -7,6 +7,9 @@
   margin: 0px auto;
   display: block;
 }
+.hidden {
+  display: none;
+}
 .introduction__paragraph {
   text-align: center;
   margin: 0px, auto;
