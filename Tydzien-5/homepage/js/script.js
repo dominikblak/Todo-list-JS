@@ -10,6 +10,8 @@
   const btnPhoto = document.querySelector(".introduction__buttons--removePhoto");
   const about = document.querySelector(".introduction");
   const photo = document.querySelector(".introduction__photo");
+  const jsPhoto = document.querySelector(".introduction__photo--js");
+  const myPhoto = document.querySelector(".introduction__photo--my");
 
   const changeColorFont = () => {
     document.body.classList.toggle("colorFont");
@@ -18,16 +20,24 @@
     document.body.classList.toggle("whiteTheame");
   };
 
-  const addPhoto = () => {
-    if (photo.style.display === "none") {
+  const changePhoto = () => {
+    jsPhoto.classList.toggle("hidden");
+    myPhoto.classList.toggle("hidden");
+    if (myPhoto.classList.contains("hidden")) {
+      btnPhoto.innerHTML = "Pokaż mnie";
+    } else {
+      btnPhoto.innerHTML = "Pokaż logo";
+    }
+
+    /*    if (photo.style.display === "none") {
       photo.style.display = "block";
       btnPhoto.innerHTML = "Ukryj zdjęcie";
     } else {
       photo.style.display = "none";
       btnPhoto.innerHTML = "Pokaż zdjęcie";
-    }
+    } */
   };
   btnFont.addEventListener("click", changeColorFont);
   btnBackground.addEventListener("click", changeBackground);
-  btnPhoto.addEventListener("click", addPhoto);
+  btnPhoto.addEventListener("click", changePhoto);
 }
