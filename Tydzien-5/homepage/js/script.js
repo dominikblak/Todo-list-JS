@@ -7,7 +7,7 @@
   block.classList.add("mySite");
   const btnFont = document.querySelector(".introduction__buttons--font");
   const btnBackground = document.querySelector(".introduction__buttons--background");
-  const btnPhoto = document.querySelector(".introduction__buttons--removePhoto");
+  const btnPhoto = document.querySelector(".introduction__buttons--changePhoto");
   const about = document.querySelector(".introduction");
   const photo = document.querySelector(".introduction__photo");
   const jsLogo = document.querySelector(".js-jsLogo");
