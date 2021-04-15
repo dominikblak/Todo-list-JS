@@ -34,6 +34,7 @@ HTML:
 - OpenGrpah
 - icon
 - functions JS
+- switching photo
 #### [Demo](https://dominikblak.github.io/Frontend-YC/Tydzien-5/homepage/)
 #### [CodeSanbox](https://codesandbox.io/s/homepage-week-5-xkcbs)
 ##
