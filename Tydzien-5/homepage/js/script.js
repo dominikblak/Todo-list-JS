@@ -28,14 +28,6 @@
     } else {
       btnPhoto.innerHTML = "Pokaż logo";
     }
-
-    /*    if (photo.style.display === "none") {
-      photo.style.display = "block";
-      btnPhoto.innerHTML = "Ukryj zdjęcie";
-    } else {
-      photo.style.display = "none";
-      btnPhoto.innerHTML = "Pokaż zdjęcie";
-    } */
   };
   btnFont.addEventListener("click", changeColorFont);
   btnBackground.addEventListener("click", changeBackground);
