@@ -1,6 +1,4 @@
 console.log("Witaj Neo w Matriksie !");
-const block = document.body;
-block.classList.add("mySite");
 const btnFont = document.querySelector(".js-btnFont");
 const btnBackground = document.querySelector(".js-btnBackground");
 const btnPhoto = document.querySelector(".js-btnRemovePhoto");
