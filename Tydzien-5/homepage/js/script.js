@@ -3,13 +3,9 @@
     console.log("Witaj Neo w Matriksie ;-)");
   }
   welcome();
-  const block = document.body;
-  block.classList.add("mySite");
-  const btnFont = document.querySelector(".introduction__buttons--font");
-  const btnBackground = document.querySelector(".introduction__buttons--background");
-  const btnPhoto = document.querySelector(".introduction__buttons--changePhoto");
-  const about = document.querySelector(".introduction");
-  const photo = document.querySelector(".introduction__photo");
+  const btnFont = document.querySelector(".js-btnFont");
+  const btnBackground = document.querySelector(".js-btnBackground");
+  const btnPhoto = document.querySelector(".js-btnChangePhoto");
   const jsLogo = document.querySelector(".js-jsLogo");
   const myPhoto = document.querySelector(".js-myPhoto");
 
@@ -28,14 +24,6 @@
     } else {
       btnPhoto.innerHTML = "Pokaż logo";
     }
-
-    /*    if (photo.style.display === "none") {
-      photo.style.display = "block";
-      btnPhoto.innerHTML = "Ukryj zdjęcie";
-    } else {
-      photo.style.display = "none";
-      btnPhoto.innerHTML = "Pokaż zdjęcie";
-    } */
   };
   btnFont.addEventListener("click", changeColorFont);
   btnBackground.addEventListener("click", changeBackground);
