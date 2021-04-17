@@ -13,6 +13,7 @@ Personal homepage
 - BEM
 - CSS (tabels,list,normalize)
 - JS
+- BEM convention
 #### [Demo](https://dominikblak.github.io/Frontend-YC/Tydzien-4/homepage/)
 #### [CodeSandbox](https://codesandbox.io/s/homepage-0nvoq)
 ##
@@ -23,6 +24,7 @@ JS:
 - forms
 - strings
 - switch
+- BEM convention
 #### [Demo](https://dominikblak.github.io/Frontend-YC/Tydzien-4/currency-converter/)
 #### [CodeSanbox](https://codesandbox.io/s/currency-converter-3plt7)
 
