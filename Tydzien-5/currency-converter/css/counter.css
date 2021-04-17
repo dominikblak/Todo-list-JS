@@ -25,3 +25,7 @@
   color: red;
   font-size: 1.4em;
 }
+.counter__label {
+  display: inline-block;
+  width: 150px;
+}
