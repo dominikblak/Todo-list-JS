@@ -24,3 +24,7 @@
 .counter__value {
   color: red;
 }
+.counter__label {
+  display: inline-block;
+  width: 150px;
+}
