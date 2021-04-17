@@ -15,10 +15,10 @@ const changeBackground = () => {
 const addPhoto = () => {
   if (photo.style.display === "none") {
     photo.style.display = "block";
-    btnPhoto.innerHTML = "Ukryj zdjęcie";
+    btnPhoto.innerHTML = "Ukryj logo";
   } else {
     photo.style.display = "none";
-    btnPhoto.innerHTML = "Pokaż zdjęcie";
+    btnPhoto.innerHTML = "Pokaż logo";
   }
 };
 btnFont.addEventListener("click", changeColorFont);
