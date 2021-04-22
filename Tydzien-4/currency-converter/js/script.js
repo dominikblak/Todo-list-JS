@@ -6,6 +6,7 @@ let result;
 
 let EuroRate = 4.47;
 let UsdRate = 3.68;
+let GbpRate = 5.26;
 let UgxRate = 2.11;
 
 formElement.addEventListener("submit", (e) => {
@@ -14,16 +15,19 @@ formElement.addEventListener("submit", (e) => {
   let choiceValue = choiceElement.value;
 
   switch (choiceValue) {
-    case "eur":
+    case "EUR":
       result = amountValue * EuroRate;
       break;
-    case "usd":
+    case "USD":
       result = amountValue * UsdRate;
       break;
-    case "ugx":
+    case "GBP":
+      result = amountValue * GbpRate;
+      break;
+    case "ISA":
       result = amountValue * UgxRate;
       break;
   }
 
-  currencyValElement.innerText = `${result.toFixed(2)} zł`;
+  currencyValElement.innerText = `${result.toFixed(2)} ${choiceValue}`;
 });
