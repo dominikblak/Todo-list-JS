@@ -28,7 +28,7 @@
       e.preventDefault();
       const amountElement = document.querySelector(".js-files");
       const choiceElement = document.querySelector(".js-counter");
-      const amountValue = +amountElement.value;
+      const amountValue = +amountElement.value; //conversion to "number" type
       const choiceValue = choiceElement.value;
       let result = calculateResult(amountValue, choiceValue);
 
