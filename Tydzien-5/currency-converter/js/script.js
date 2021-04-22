@@ -18,9 +18,7 @@
   };
   const upadteResultText = (amountValue, result, choiceValue) => {
     const currencyValElement = document.querySelector(".js-value");
-    currencyValElement.innerHTML = `<strong>${amountValue.toFixed(2)} PLN = ${result.toFixed(
-      2
-    )} ${choiceValue}</strong>`;
+    currencyValElement.innerHTML = `${amountValue.toFixed(2)} PLN = ${result.toFixed(2)} ${choiceValue}`;
   };
   const init = () => {
     const formElement = document.querySelector(".js-form");
