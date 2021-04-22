@@ -2,6 +2,7 @@
   const calculateResult = (amountValue, choiceValue) => {
     const EuroRate = 4.47;
     const UsdRate = 3.68;
+    const GbpRate = 5.26;
     const IsaRate = 2.11;
 
     switch (choiceValue) {
@@ -9,15 +10,15 @@
         return amountValue * EuroRate;
       case "USD":
         return amountValue * UsdRate;
+      case "GBP":
+        return amountValue * GbpRate;
       case "ISA":
         return amountValue * IsaRate;
     }
   };
   const upadteResultText = (amountValue, result, choiceValue) => {
     const currencyValElement = document.querySelector(".js-value");
-    currencyValElement.innerHTML = `${amountValue.toFixed(2)} PLN = <strong>${result.toFixed(
-      2
-    )} ${choiceValue}</strong>`;
+    currencyValElement.innerHTML = `${amountValue.toFixed(2)} PLN = ${result.toFixed(2)} ${choiceValue}`;
   };
   const init = () => {
     const formElement = document.querySelector(".js-form");
@@ -25,7 +26,7 @@
       e.preventDefault();
       const amountElement = document.querySelector(".js-files");
       const choiceElement = document.querySelector(".js-counter");
-      const amountValue = +amountElement.value;
+      const amountValue = +amountElement.value; //conversion to "number" type
       const choiceValue = choiceElement.value;
       let result = calculateResult(amountValue, choiceValue);
 
