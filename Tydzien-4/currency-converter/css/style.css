@@ -9,7 +9,17 @@ html {
   box-sizing: inherit;
 }
 body {
-  max-width: 1000px;
-  margin: 0 auto;
   background-color: rgb(53, 58, 74);
+}
+a {
+  color: white;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: hsl(226, 17%, 65%);
+}
+footer {
+  text-align: center;
 }
