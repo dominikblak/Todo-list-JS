@@ -8,9 +8,10 @@
   const btnPhoto = document.querySelector(".js-btnChangePhoto");
   const jsLogo = document.querySelector(".js-jsLogo");
   const myPhoto = document.querySelector(".js-myPhoto");
+  const container = document.querySelector(".js-container");
 
   const changeColorFont = () => {
-    document.body.classList.toggle("colorFont");
+    container.classList.toggle("colorFont");
   };
   const changeBackground = () => {
     document.body.classList.toggle("whiteTheame");

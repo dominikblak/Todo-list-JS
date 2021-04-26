@@ -2,11 +2,11 @@ console.log("Witaj Neo w Matriksie !");
 const btnFont = document.querySelector(".js-btnFont");
 const btnBackground = document.querySelector(".js-btnBackground");
 const btnPhoto = document.querySelector(".js-btnRemovePhoto");
-const about = document.querySelector(".introduction");
 const photo = document.querySelector(".introduction__photo");
+const container = document.querySelector(".js-container");
 
 const changeColorFont = () => {
-  document.body.classList.toggle("colorFont");
+  container.classList.toggle("colorFont");
 };
 const changeBackground = () => {
   document.body.classList.toggle("whiteTheame");

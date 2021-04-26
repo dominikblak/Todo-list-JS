@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/table.css" />
   </head>
   <body>
-    <main class="container">
+    <main class="container js-container">
       <nav class="navigation">
         <ul class="navigation_list">
           <li><a href="#o-mnie">O mnie</a></li>
@@ -31,7 +31,7 @@
         <h1 class="introduction__header">Witam !</h1>
         <img src="img/js.png" class="introduction__photo" alt="" />
         <br />
-        <section id="o-mnie" class="introduction__paragraph">
+        <div id="o-mnie" class="introduction__paragraph">
           <p>
             <b>Mam na imię Dominik.</b> <br />
             Obecnie mieszkam oraz pracuję w Krakowie. Informatyka to także moje hobby, dlatego postanowiłem połączyć
@@ -39,12 +39,15 @@
             <i>Angularem,</i>
             <strong>jednak najbardziej przypdał mi do gustu <i>JavaScript</i> i <i>React.</i></strong>
             <br />
+            </p>
+            </div>
             <em>Użyj przycisków !</em>
           </p>
-        <section class=".introduction__buttons">
+        <div class=".introduction__buttons">
           <button class="introduction__buttons js-btnFont">Kolor czcionki</button>
           <button class="introduction__buttons js-btnBackground">Zmień tło</button>
           <button class="introduction__buttons js-btnRemovePhoto">Ukryj logo</button>
+        </div>
         </section>
         <article class="article">
           <h1 class="article__header" id="artykul">Korona Ziemi</h1>
