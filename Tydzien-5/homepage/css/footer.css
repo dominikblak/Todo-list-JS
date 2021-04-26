@@ -1,11 +1,4 @@
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-.footer p {
-  position: relative;
-  background-color: lightslategrey;
-  margin: 0 auto;
-  padding: 15px;
+footer {
+  background-color: #788898;
+  margin-top: 100px;
 }
