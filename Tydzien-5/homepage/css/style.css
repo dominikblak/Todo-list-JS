@@ -8,8 +8,11 @@ html {
 ::before {
   box-sizing: inherit;
 }
-body {
+.body {
   background-color: rgb(53, 58, 74);
+}
+.body--whiteBackground {
+  background-color: white;
 }
 .container {
   padding: 20px;
@@ -20,6 +23,9 @@ body {
   text-align: center;
   overflow-x: auto;
   line-height: 1.5;
+}
+.container--blackFont {
+  color: black;
 }
 .btn button:hover {
   background-color: rgb(20, 20, 20);

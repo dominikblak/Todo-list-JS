@@ -8,7 +8,7 @@ html {
 ::before {
   box-sizing: inherit;
 }
-body {
+.body {
   background-color: rgb(53, 58, 74);
 }
 .container {
@@ -21,14 +21,16 @@ body {
   overflow-x: auto;
   line-height: 1.5;
 }
+.container--blackFont {
+  color: black;
+}
 
 .btn button:hover {
   background-color: rgb(20, 20, 20);
   color: white;
 }
-.whiteTheame {
+.body--whiteBackground {
   background-color: white;
-  color: black;
 }
 .colorFont {
   color: coral;
