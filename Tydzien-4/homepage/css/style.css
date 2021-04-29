@@ -44,14 +44,14 @@ html {
   margin-bottom: 10px;
 }
 
-.navigation_list li {
+.navigation__list li {
   display: inline-block;
   padding: 5px;
   list-style: none;
   text-align: center;
   margin-top: 10px;
 }
-.navigation_list a {
+.navigation__list a {
   font-size: 1.4em;
   color: white;
   text-decoration: none;
