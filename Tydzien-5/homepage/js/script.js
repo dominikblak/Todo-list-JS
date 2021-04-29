@@ -9,12 +9,14 @@
   const jsLogo = document.querySelector(".js-jsLogo");
   const myPhoto = document.querySelector(".js-myPhoto");
   const container = document.querySelector(".js-container");
+  const body = document.querySelector(".js-body");
 
   const changeColorFont = () => {
     container.classList.toggle("colorFont");
   };
   const changeBackground = () => {
-    document.body.classList.toggle("whiteTheame");
+    body.classList.toggle("body--whiteBackground");
+    container.classList.toggle("container--blackFont");
   };
 
   const changePhoto = () => {
