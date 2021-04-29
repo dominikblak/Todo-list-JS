@@ -26,3 +26,6 @@
   font-size: 30px;
   cursor: pointer;
 }
+.introduction__buttons:hover {
+  background-color: turquoise;
+}
