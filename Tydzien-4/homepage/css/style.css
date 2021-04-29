@@ -21,7 +21,7 @@ html {
   overflow-x: auto;
   line-height: 1.5;
 }
-.container--blackFont {
+.container--fontBlack {
   color: black;
 }
 
@@ -29,14 +29,13 @@ html {
   background-color: rgb(20, 20, 20);
   color: white;
 }
-.body--whiteBackground {
+.body--backgroundWhite {
   background-color: white;
 }
-.colorFont {
+.container--changeFontColor {
   color: coral;
-  margin: 0 auto;
 }
-footer {
+.footer {
   background-color: #788898;
   margin-top: 100px;
 }
@@ -45,14 +44,14 @@ footer {
   margin-bottom: 10px;
 }
 
-.navigation_list li {
+.navigation__list li {
   display: inline-block;
   padding: 5px;
   list-style: none;
   text-align: center;
   margin-top: 10px;
 }
-.navigation_list a {
+.navigation__list a {
   font-size: 1.4em;
   color: white;
   text-decoration: none;

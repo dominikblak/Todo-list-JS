@@ -1,18 +1,21 @@
-.introduction__header {
+.header__header {
   text-align: center;
 }
-.introduction__photo {
-  width: 300px;
+.header__photo {
+  max-width: 300px;
   text-align: center;
   margin: 0px auto;
   display: block;
 }
-.introduction__paragraph {
+.hidden {
+  display: none;
+}
+.header__paragraph {
   text-align: center;
   margin: 0px, auto;
   line-height: 30px;
 }
-.introduction__buttons {
+.header__buttons {
   text-align: center;
   margin: 30px auto;
   display: inline-block;
@@ -25,4 +28,7 @@
   transition: 0.3s;
   font-size: 30px;
   cursor: pointer;
+}
+.header__buttons:hover {
+  background-color: turquoise;
 }

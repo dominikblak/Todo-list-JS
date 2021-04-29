@@ -2,13 +2,10 @@
   text-align: center;
 }
 .header__photo {
-  max-width: 300px;
+  width: 300px;
   text-align: center;
   margin: 0px auto;
   display: block;
-}
-.hidden {
-  display: none;
 }
 .header__paragraph {
   text-align: center;
