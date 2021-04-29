@@ -2,7 +2,7 @@ console.log("Witaj Neo w Matriksie !");
 const buttonFont = document.querySelector(".js-buttonFont");
 const buttonBackground = document.querySelector(".js-buttonBackground");
 const buttonPhoto = document.querySelector(".js-buttonRemovePhoto");
-const photo = document.querySelector(".introduction__photo");
+const photo = document.querySelector(".header__photo");
 const container = document.querySelector(".js-container");
 const body = document.querySelector(".js-body");
 
