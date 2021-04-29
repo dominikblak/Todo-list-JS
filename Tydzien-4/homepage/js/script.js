@@ -7,11 +7,11 @@ const container = document.querySelector(".js-container");
 const body = document.querySelector(".js-body");
 
 const changeColorFont = () => {
-  container.classList.toggle("colorFont");
+  container.classList.toggle("container--changeFontColor");
 };
 const changeBackground = () => {
-  body.classList.toggle("body--whiteBackground");
-  container.classList.toggle("container--blackFont");
+  body.classList.toggle("body--backgroundWhite");
+  container.classList.toggle("container--fontBlack");
 };
 
 const addPhoto = () => {

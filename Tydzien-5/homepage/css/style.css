@@ -24,20 +24,18 @@ html {
   overflow-x: auto;
   line-height: 1.5;
 }
-.container--blackFont {
+.container--fontBlack {
   color: black;
 }
 .btn button:hover {
   background-color: rgb(20, 20, 20);
   color: white;
 }
-.whiteTheame {
+.body--backgroundWhite {
   background-color: white;
-  color: black;
 }
-.colorFont {
+.container--changeFontColor {
   color: coral;
-  margin: 0 auto;
 }
 
 .caption {
