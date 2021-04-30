@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  height: 100%;
 }
 
 *,
@@ -35,28 +34,29 @@ html {
 .container--changeFontColor {
   color: coral;
 }
+.container--link {
+  text-decoration: none;
+  color: black;
+}
 .footer {
   background-color: #788898;
   margin-top: 100px;
 }
-.navigation__list li {
+.navigation__list--block {
   display: inline-block;
   padding: 5px;
   list-style: none;
   text-align: center;
   margin-top: 10px;
 }
-.navigation__list a {
+.navigation__list--link {
   font-size: 1.4em;
   color: white;
   text-decoration: none;
   background-color: turquoise;
   padding: 5px 10px;
 }
-a {
-  text-decoration: none;
-  color: black;
-}
+
 a:visited {
   color: green;
 }

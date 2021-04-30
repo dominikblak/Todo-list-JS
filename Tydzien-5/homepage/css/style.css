@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  height: 100%;
 }
 
 *,
@@ -27,6 +26,10 @@ html {
 .container--fontBlack {
   color: black;
 }
+.container--link {
+  text-decoration: none;
+  color: black;
+}
 .btn button:hover {
   background-color: rgb(20, 20, 20);
   color: white;
@@ -37,22 +40,19 @@ html {
 .container--changeFontColor {
   color: coral;
 }
-.navigation__list li {
+.navigation__list--block {
   display: inline-block;
   padding: 5px;
   list-style: none;
   text-align: center;
   margin-top: 10px;
 }
-.navigation__list a {
+.navigation__list--link {
   font-size: 1.4em;
   color: white;
   text-decoration: none;
   background-color: turquoise;
   padding: 5px 10px;
-}
-a {
-  color: black;
 }
 a:visited {
   color: green;

@@ -1,4 +1,4 @@
-.header__description {
+.header {
   text-align: center;
 }
 .header__jsLogo {
@@ -7,7 +7,7 @@
   margin: 0px auto;
   display: block;
 }
-.header__paragraph {
+.header__description {
   text-align: center;
   margin: 0px, auto;
   line-height: 30px;
@@ -21,7 +21,6 @@
   text-transform: uppercase;
   background-color: #fff;
   font-weight: bold;
-  margin: 0, auto;
   transition: 0.3s;
   font-size: 30px;
   cursor: pointer;

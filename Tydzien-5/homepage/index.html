@@ -24,17 +24,25 @@
     <main class="container js-container">
       <nav class="navigation">
         <ul class="navigation__list">
-          <li><a href="#o-mnie">O mnie</a></li>
-          <li><a href="#artykul">Korona Ziemi</a></li>
-          <li><a href="#skala">Skala</a></li>
-          <li><a href="#tabela">Tabela</a></li>
+          <li class="navigation__list navigation__list--block">
+            <a class="navigation__list navigation__list--link" href="#o-mnie">O mnie</a>
+          </li>
+          <li class="navigation__list navigation__list--block">
+            <a class="navigation__list navigation__list--link" href="#artykul">Korona Ziemi</a>
+          </li>
+          <li class="navigation__list navigation__list--block">
+            <a class="navigation__list navigation__list--link" href="#skala">Skala</a>
+          </li>
+          <li class="navigation__list navigation__list--block">
+            <a class="navigation__list navigation__list--link" href="#tabela">Tabela</a>
+          </li>
         </ul>
       </nav>
       <header class="header">
-        <h1 class="header__description">Witam !</h1>
+        <h1>Witam !</h1>
         <img src="img/js.png" class="header__img js-jsLogo" alt="" />
         <img src="img/dominik.jpg" class="header__img js-myPhoto hidden" alt="" />
-        <div id="o-mnie" class="header__paragraph">
+        <div id="o-mnie" class="header__description">
           <p>
             <b>Mam na imię Dominik.</b><br />
             Obecnie mieszkam oraz pracuję w Krakowie. Informatyka to także moje hobby, dlatego postanowiłem połączyć
@@ -48,9 +56,9 @@
               i
               <i>React.</i>
             </strong>
-            <em>Użyj przycisków !</em>
           </p>
         </div>
+        <em>Użyj przycisków !</em>
         <div>
           <button class="header__buttons js-buttonFont">Kolor czcionki</button>
           <button class="header__buttons js-buttonBackground">Zmień tło</button>
@@ -123,75 +131,75 @@
         <caption class="table__caption">
           Korona Ziemi - tabela
         </caption>
-        <tr class="table__Row">
-          <th class="table__Cell table__Header" scope="col">Kontynent</th>
-          <th class="table__Cell table__Header" scope="col">Nazwa</th>
-          <th class="table__Cell table__Header" scope="col">Wysokość (m.n.p.m.)</th>
-          <th class="table__Cell table__Header" scope="col">Pasmo górskie</th>
-          <th class="table__Cell table__Header" scope="col">Pierwsi zdobywcy</th>
-          <th class="table__Cell table__Header" scope="col">Data zdobycia</th>
+        <tr class="table__row">
+          <th class="table__cell table__cell--header" scope="col">Kontynent</th>
+          <th class="table__cell table__cell--header" scope="col">Nazwa</th>
+          <th class="table__cell table__cell--header" scope="col">Wysokość (m.n.p.m.)</th>
+          <th class="table__cell table__cell--header" scope="col">Pasmo górskie</th>
+          <th class="table__cell table__cell--header" scope="col">Pierwsi zdobywcy</th>
+          <th class="table__cell table__cell--header" scope="col">Data zdobycia</th>
         </tr>
-        <tr class="table__Row">
-          <th class="table__Cell table__Header" scope="row">Azja</th>
-          <td class="table__Cell">Mount Everest</td>
-          <td class="table__Cell">8848</td>
-          <td class="table__Cell">Himalaje</td>
-          <td class="table__Cell">E.Hillary, T.Norgay</td>
-          <td class="table__Cell">1953</td>
+        <tr class="table__row">
+          <th class="table__cell table__cell--header" scope="row">Azja</th>
+          <td class="table__cell">Mount Everest</td>
+          <td class="table__cell">8848</td>
+          <td class="table__cell">Himalaje</td>
+          <td class="table__cell">E.Hillary, T.Norgay</td>
+          <td class="table__cell">1953</td>
         </tr>
-        <tr class="table__Row">
-          <th class="table__Cell table__Header" scope="row">Ameryka Południowa</th>
-          <td class="table__Cell">Aconcagua</td>
-          <td class="table__Cell">6961</td>
-          <td class="table__Cell">Andy</td>
-          <td class="table__Cell">Matthias Zurbriggen</td>
-          <td class="table__Cell">1897</td>
+        <tr class="table__row">
+          <th class="table__cell table__cell--header" scope="row">Ameryka Południowa</th>
+          <td class="table__cell">Aconcagua</td>
+          <td class="table__cell">6961</td>
+          <td class="table__cell">Andy</td>
+          <td class="table__cell">Matthias Zurbriggen</td>
+          <td class="table__cell">1897</td>
         </tr>
-        <tr class="table__Row">
-          <th class="table__Cell table__Header" scope="row">Ameryka Północna</th>
-          <td class="table__Cell">Denali</td>
-          <td class="table__Cell">6195</td>
-          <td class="table__Cell">Alaska</td>
-          <td class="table__Cell">Hudson Stuck, Harry Karstens, Walter Harper, Robert Tatum</td>
-          <td class="table__Cell">1913</td>
+        <tr class="table__row">
+          <th class="table__cell table__cell--header" scope="row">Ameryka Północna</th>
+          <td class="table__cell">Denali</td>
+          <td class="table__cell">6195</td>
+          <td class="table__cell">Alaska</td>
+          <td class="table__cell">Hudson Stuck, Harry Karstens, Walter Harper, Robert Tatum</td>
+          <td class="table__cell">1913</td>
         </tr>
-        <tr class="table__Row">
-          <th class="table__Cell table__Header" scope="row">Afryka</th>
-          <td class="table__Cell">Kilimandżaro</td>
-          <td class="table__Cell">5895</td>
-          <td class="table__Cell">Masyw górski</td>
-          <td class="table__Cell">Hans Meyer, Ludwig Purtscheller</td>
-          <td class="table__Cell">1889</td>
+        <tr class="table__row">
+          <th class="table__cell table__cell--header" scope="row">Afryka</th>
+          <td class="table__cell">Kilimandżaro</td>
+          <td class="table__cell">5895</td>
+          <td class="table__cell">Masyw górski</td>
+          <td class="table__cell">Hans Meyer, Ludwig Purtscheller</td>
+          <td class="table__cell">1889</td>
         </tr>
-        <tr class="table__Row">
-          <th class="table__Cell table__Header" scope="row">Europa</th>
-          <td class="table__Cell">Mont Blanc</td>
-          <td class="table__Cell">4808</td>
-          <td class="table__Cell">Masyw Mont Blanc</td>
-          <td class="table__Cell">Jacques Balmat, Michel Paccard</td>
-          <td class="table__Cell">1786</td>
+        <tr class="table__row">
+          <th class="table__cell table__cell--header" scope="row">Europa</th>
+          <td class="table__cell">Mont Blanc</td>
+          <td class="table__cell">4808</td>
+          <td class="table__cell">Masyw Mont Blanc</td>
+          <td class="table__cell">Jacques Balmat, Michel Paccard</td>
+          <td class="table__cell">1786</td>
         </tr>
-        <tr class="table__Row">
-          <th class="table__Cell table__Header" scope="row">Australia</th>
-          <td class="table__Cell">Puncak Jaya</td>
-          <td class="table__Cell">4884</td>
-          <td class="table__Cell">Góry Śnieżne</td>
-          <td class="table__Cell">Harrer, Temple, Kippax i Huizenga</td>
-          <td class="table__Cell">1962</td>
+        <tr class="table__row">
+          <th class="table__cell table__cell--header" scope="row">Australia</th>
+          <td class="table__cell">Puncak Jaya</td>
+          <td class="table__cell">4884</td>
+          <td class="table__cell">Góry Śnieżne</td>
+          <td class="table__cell">Harrer, Temple, Kippax i Huizenga</td>
+          <td class="table__cell">1962</td>
         </tr>
-        <tr class="table__Row">
-          <th class="table__Cell table__Header" scope="row">Antarktyda</th>
-          <td class="table__Cell">Masyw Vinsona</td>
-          <td class="table__Cell">4892</td>
-          <td class="table__Cell">Sentinel</td>
-          <td class="table__Cell">Nicholas Clinch</td>
-          <td class="table__Cell">1966</td>
+        <tr class="table__row">
+          <th class="table__cell table__cell--header" scope="row">Antarktyda</th>
+          <td class="table__cell">Masyw Vinsona</td>
+          <td class="table__cell">4892</td>
+          <td class="table__cell">Sentinel</td>
+          <td class="table__cell">Nicholas Clinch</td>
+          <td class="table__cell">1966</td>
         </tr>
       </table>
     </main>
     <footer class="footer">
       <div class="container">
-        <a target="blank" href="https://github.com/dominikblak">Dominik Blak 2021</a>
+        <a class="container container--link" target="blank" href="https://github.com/dominikblak">Dominik Blak 2021</a>
       </div>
     </footer>
     <script defer src="js/script.js"></script>
