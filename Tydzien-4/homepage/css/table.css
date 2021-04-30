@@ -9,7 +9,7 @@
   padding: 5px;
   text-align: center;
 }
-.table__Header {
+.table__cell--header {
   background-color: turquoise;
   color: white;
   font-weight: normal;
