@@ -4,7 +4,7 @@
   width: 100%;
   overflow-x: auto;
 }
-.table__Cell {
+.table__cell {
   border: 1px solid #ccc;
   padding: 5px;
   text-align: center;
@@ -18,9 +18,9 @@
   text-align: center;
   margin-bottom: 10px;
 }
-.table__Row:nth-child(even) {
+.table__row:nth-child(even) {
   background-color: rgba(238, 238, 238, 0.432);
 }
-.table__Row:hover {
+.table__row:hover {
   color: turquoise;
 }
