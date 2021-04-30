@@ -35,6 +35,10 @@ html {
 .container--changeFontColor {
   color: coral;
 }
+.container--link {
+  text-decoration: none;
+  color: black;
+}
 .footer {
   background-color: #788898;
   margin-top: 100px;
@@ -53,10 +57,7 @@ html {
   background-color: turquoise;
   padding: 5px 10px;
 }
-a {
-  text-decoration: none;
-  color: black;
-}
+
 a:visited {
   color: green;
 }
