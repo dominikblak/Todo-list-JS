@@ -15,20 +15,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/counter.css" />
+    <link rel="stylesheet" href="css/container.css" />
     <link rel="stylesheet" href="css/footer.css" />
   </head>
   <body>
-    <section class="counter">
-      <h1 class="counter__header">Kalkulator walut</h1>
-      <form class="counter__form js-form">
+    <section class="container">
+      <h1 class="container__header">Kalkulator walut</h1>
+      <form class="container__form js-form">
         <fieldset>
           <legend>Twoje dane</legend>
           <p>
             <label for="amountid">
-              <span class="counter__label"> Twoja kwota w zł :</span>
+              <span class="container__label"> Twoja kwota w zł :</span>
               <input
-                class="counter__files js-files"
+                class="container__files js-files"
                 type="number"
                 name="amount"
                 min="0"
@@ -40,24 +40,26 @@
           </p>
           <p>
             <label for="currency">
-              <span class="counter__label"> Wybierz walutę :</span>
-              <select name="currency_choice" id="currency" class="counter__files js-counter">
-                <option value="EUR" class="counter__euro" selected>Euro</option>
-                <option value="USD" class="counter__usd">USD</option>
-                <option value="GBP" class="counter__gbp">GBP</option>
-                <option value="ISA" class="counter__ugx">Szekle SanEscobarskie</option>
+              <span class="container__label"> Wybierz walutę :</span>
+              <select name="currency_choice" id="currency" class="container__files js-container">
+                <option value="EUR" class="container__euro" selected>Euro</option>
+                <option value="USD" class="container__usd">USD</option>
+                <option value="GBP" class="container__gbp">GBP</option>
+                <option value="ISA" class="container__ugx">Szekle SanEscobarskie</option>
               </select>
             </label>
           </p>
           <p>
-            <button class="counter__btn">Przelicz</button>
+            <button class="container__btn">Przelicz</button>
           </p>
-          <p>Otrzymasz : <strong class="counter__value js-value"></strong></p>
+          <p>Otrzymasz : <strong class="container__value js-value"></strong></p>
         </fieldset>
       </form>
     </section>
-    <footer>
-      <div class="counter"><a target="blank" href="https://github.com/dominikblak">Dominik Blak 2021</a></div>
+    <footer class="footer">
+      <div class="container">
+        <a class="footer--link" target="blank" href="https://github.com/dominikblak">Dominik Blak 2021</a>
+      </div>
     </footer>
     <script defer src="js/script.js"></script>
   </body>

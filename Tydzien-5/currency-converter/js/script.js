@@ -7,13 +7,13 @@
 
     switch (choiceValue) {
       case "EUR":
-        return amountValue * EuroRate;
+        return amountValue / EuroRate;
       case "USD":
-        return amountValue * UsdRate;
+        return amountValue / UsdRate;
       case "GBP":
-        return amountValue * GbpRate;
+        return amountValue / GbpRate;
       case "ISA":
-        return amountValue * IsaRate;
+        return amountValue / IsaRate;
     }
   };
   const upadteResultText = (amountValue, result, choiceValue) => {
@@ -25,7 +25,7 @@
     const onFormSubmit = (e) => {
       e.preventDefault();
       const amountElement = document.querySelector(".js-files");
-      const choiceElement = document.querySelector(".js-counter");
+      const choiceElement = document.querySelector(".js-container");
       const amountValue = +amountElement.value; //conversion to "number" type
       const choiceValue = choiceElement.value;
       let result = calculateResult(amountValue, choiceValue);

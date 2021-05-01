@@ -19,9 +19,9 @@ a:visited {
 a:hover {
   color: hsl(226, 17%, 65%);
 }
-footer {
+.footer {
   text-align: center;
 }
-footer a {
+.footer--link {
   text-decoration: none;
 }
