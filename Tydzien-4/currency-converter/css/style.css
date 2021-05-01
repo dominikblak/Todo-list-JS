@@ -19,10 +19,3 @@ a:hover {
 a:active {
   color: red;
 }
-.footer {
-  text-align: center;
-}
-.footer--link {
-  text-decoration: none;
-  color: white;
-}

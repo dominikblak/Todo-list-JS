@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/container.css" />
+    <link rel="stylesheet" href="css/footer.css" />
   </head>
   <body>
     <section class="container">
@@ -25,7 +26,7 @@
             <label for="amountid">
               <span class="container__label">Twoja kwota w zł :</span>
               <input
-                class="container__files js-files"
+                class="container__input js-input"
                 type="number"
                 name="amount"
                 min="0"
@@ -38,7 +39,7 @@
           <p>
             <label for="currency">
               <span class="container__label">Wybierz walutę :</span>
-              <select name="currency_choice" id="currency" class="container__files js-container">
+              <select name="currency_choice" id="currency" class="container__input js-container">
                 <option value="EUR" class="container__euro" selected>Euro</option>
                 <option value="USD" class="container__usd">USD</option>
                 <option value="GBP" class="container__gbp">GBP</option>
@@ -47,7 +48,7 @@
             </label>
           </p>
           <p>
-            <button class="container__btn">Przelicz</button>
+            <button class="container__button">Przelicz</button>
           </p>
           <p>Otrzymasz : <strong class="container__value js-value"></strong></p>
         </fieldset>

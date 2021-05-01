@@ -1,4 +1,4 @@
-let amountElement = document.querySelector(".js-files");
+let amountElement = document.querySelector(".js-input");
 let formElement = document.querySelector(".js-form");
 let choiceElement = document.querySelector(".js-container");
 let currencyValElement = document.querySelector(".js-value");
