@@ -26,10 +26,6 @@ html {
 .container--fontBlack {
   color: black;
 }
-.container--link {
-  text-decoration: none;
-  color: black;
-}
 .btn button:hover {
   background-color: rgb(20, 20, 20);
   color: white;
@@ -59,4 +55,7 @@ a:visited {
 }
 a:hover {
   color: blue;
+}
+a:active {
+  color: red;
 }

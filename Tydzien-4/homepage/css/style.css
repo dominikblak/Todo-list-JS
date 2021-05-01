@@ -34,7 +34,7 @@ html {
 .container--changeFontColor {
   color: coral;
 }
-.container--link {
+.footer--link {
   text-decoration: none;
   color: black;
 }
@@ -62,4 +62,7 @@ a:visited {
 }
 a:hover {
   color: blue;
+}
+a:active {
+  color: red;
 }
