@@ -18,12 +18,12 @@ body {
   overflow-x: auto;
   line-height: 1.5;
 }
-a {
-  color: black;
-}
 a:visited {
-  color: white;
+  color: hsl(120, 100%, 80%);
 }
 a:hover {
   color: blue;
+}
+a:active {
+  color: red;
 }
