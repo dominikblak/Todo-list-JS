@@ -18,18 +18,12 @@ body {
   overflow-x: auto;
   line-height: 1.5;
 }
-footer {
-  text-align: center;
-}
-footer a {
-  text-decoration: none;
-}
-a {
-  color: black;
-}
 a:visited {
-  color: green;
+  color: hsl(120, 100%, 80%);
 }
 a:hover {
   color: blue;
+}
+a:active {
+  color: red;
 }

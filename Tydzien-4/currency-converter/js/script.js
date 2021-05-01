@@ -1,6 +1,6 @@
 let amountElement = document.querySelector(".js-files");
 let formElement = document.querySelector(".js-form");
-let choiceElement = document.querySelector(".js-counter");
+let choiceElement = document.querySelector(".js-container");
 let currencyValElement = document.querySelector(".js-value");
 let result;
 
@@ -16,16 +16,16 @@ formElement.addEventListener("submit", (e) => {
 
   switch (choiceValue) {
     case "EUR":
-      result = amountValue * EuroRate;
+      result = amountValue / EuroRate;
       break;
     case "USD":
-      result = amountValue * UsdRate;
+      result = amountValue / UsdRate;
       break;
     case "GBP":
-      result = amountValue * GbpRate;
+      result = amountValue / GbpRate;
       break;
     case "ISA":
-      result = amountValue * UgxRate;
+      result = amountValue / UgxRate;
       break;
   }
 

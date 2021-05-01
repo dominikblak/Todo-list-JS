@@ -10,18 +10,19 @@ html {
 body {
   background-color: rgb(53, 58, 74);
 }
-a {
-  color: white;
-}
 a:visited {
   color: green;
 }
 a:hover {
   color: hsl(226, 17%, 65%);
 }
-footer {
+a:active {
+  color: red;
+}
+.footer {
   text-align: center;
 }
-footer a {
+.footer--link {
   text-decoration: none;
+  color: white;
 }
