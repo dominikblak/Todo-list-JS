@@ -24,7 +24,7 @@
     const formElement = document.querySelector(".js-form");
     const onFormSubmit = (e) => {
       e.preventDefault();
-      const amountElement = document.querySelector(".js-files");
+      const amountElement = document.querySelector(".js-input");
       const choiceElement = document.querySelector(".js-container");
       const amountValue = +amountElement.value; //conversion to "number" type
       const choiceValue = choiceElement.value;
