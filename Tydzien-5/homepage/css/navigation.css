@@ -1,0 +1,14 @@
+.navigation__list--block {
+  display: inline-block;
+  padding: 5px;
+  list-style: none;
+  text-align: center;
+  margin-top: 10px;
+}
+.navigation__list--link {
+  font-size: 1.4em;
+  color: white;
+  text-decoration: none;
+  background-color: turquoise;
+  padding: 5px 10px;
+}
