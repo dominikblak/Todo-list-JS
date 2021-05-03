@@ -15,7 +15,7 @@ Personal homepage
 - JS
 - BEM convention
 #### [Demo](https://dominikblak.github.io/Frontend-YC/Tydzien-4/homepage/)
-#### [CodeSandbox](https://codesandbox.io/s/homepage-0nvoq)
+#### [Code](https://github.com/dominikblak/Frontend-YC/tree/master/Tydzien-4/homepage)
 ##
 ### Currency-converter :
 Currency converter
@@ -26,7 +26,7 @@ JS:
 - switch
 - BEM convention
 #### [Demo](https://dominikblak.github.io/Frontend-YC/Tydzien-4/currency-converter/)
-#### [CodeSanbox](https://codesandbox.io/s/currency-converter-3plt7)
+#### [Code](https://github.com/dominikblak/Frontend-YC/tree/master/Tydzien-4/currency-converter)
 
 ## Week 5
 ******
