@@ -48,4 +48,4 @@ CSS :
 - Background image
 - functions JS
 #### [Demo](https://dominikblak.github.io/Frontend-YC/Tydzien-5/currency-converter/)
-#### [CodeSanbox](https://github.com/dominikblak/Frontend-YC/tree/master/Tydzien-5/currency-converter)
+#### [Code](https://github.com/dominikblak/Frontend-YC/tree/master/Tydzien-5/currency-converter)
