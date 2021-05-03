@@ -38,7 +38,7 @@ HTML:
 - functions JS
 - switching photo
 #### [Demo](https://dominikblak.github.io/Frontend-YC/Tydzien-5/homepage/)
-#### [CodeSanbox](https://codesandbox.io/s/homepage-week-5-xkcbs)
+#### [Code](https://github.com/dominikblak/Frontend-YC/tree/master/Tydzien-5/homepage)
 ##
 ### Currency-converter :
 Currency converter
@@ -48,4 +48,4 @@ CSS :
 - Background image
 - functions JS
 #### [Demo](https://dominikblak.github.io/Frontend-YC/Tydzien-5/currency-converter/)
-#### [CodeSanbox](https://codesandbox.io/s/currency-converter-week-5-y2zl3)
+#### [CodeSanbox](https://github.com/dominikblak/Frontend-YC/tree/master/Tydzien-5/currency-converter)
