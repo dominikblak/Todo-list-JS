@@ -34,7 +34,7 @@ JS:
 ******
 ### Responsive Homepage :
 Personal homepage
-<img src="https://github.com/dominikblak/Frontend-YC/blob/master/Tydzien-5/homepage/img/Animation_homegpage5.gif" alt="demo_Personal homepage4" >
+<img src="https://github.com/dominikblak/Frontend-YC/blob/master/Tydzien-5/homepage/img/Animation_homegpage5.gif" alt="demo_Personal homepage5" >
 HTML:
 - OpenGrpah
 - icon
