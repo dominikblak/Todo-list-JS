@@ -35,21 +35,24 @@ JS:
 ### Responsive Homepage :
 Personal homepage
 <img src="https://github.com/dominikblak/Frontend-YC/blob/master/Tydzien-5/homepage/img/Animation_homepage5.gif" alt="demo_Personal homepage5" >
-HTML:
+HTML,CSS,JS:
 - OpenGrpah
 - icon
-- functions JS
 - switching photo
+- ES6+ features
+- functions JS
+
 #### [Demo](https://dominikblak.github.io/Frontend-YC/Tydzien-5/homepage/)
 #### [Code](https://github.com/dominikblak/Frontend-YC/tree/master/Tydzien-5/homepage)
 ##
 ### Currency-converter :
 Currency converter
 <img src="https://github.com/dominikblak/Frontend-YC/blob/master/Tydzien-5/currency-converter/img/Animation_currency_converter5.gif" alt="demo_Personal homepage4" >
-CSS :
+HTML,CSS,JS :
 - OpenGrpah
 - icon
 - Background image
+- ES6+ features
 - functions JS
 #### [Demo](https://dominikblak.github.io/Frontend-YC/Tydzien-5/currency-converter/)
 #### [Code](https://github.com/dominikblak/Frontend-YC/tree/master/Tydzien-5/currency-converter)
