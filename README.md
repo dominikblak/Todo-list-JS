@@ -20,7 +20,7 @@ Personal homepage
 ##
 ### Currency-converter :
 Currency converter
-<img src="https://github.com/dominikblak/Frontend-YC/blob/master/Tydzien-4/currency_converter/img/animation_currency_converter.gif" alt="demo_currency_converter4" >
+<img src="https://github.com/dominikblak/Frontend-YC/blob/master/Tydzien-4/currency-converter/img/animation_currency_converter.gif" alt="demo_currency_converter4" >
 JS:
 - numbers
 - forms
