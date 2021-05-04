@@ -26,7 +26,7 @@
       e.preventDefault();
       const amountElement = document.querySelector(".js-input");
       const choiceElement = document.querySelector(".js-container");
-      const amountValue = +amountElement.value; //conversion to "number" type
+      const amountValue = +amountElement.value;
       const choiceValue = choiceElement.value;
       let result = calculateResult(amountValue, choiceValue);
 
