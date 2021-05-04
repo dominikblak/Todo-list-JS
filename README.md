@@ -10,7 +10,7 @@ Projects and homework divided into weeks with a description.
 ******
 ### Responsive Homepage :
 Personal homepage
-<img src="https://github.com/dominikblak/Frontend-YC/blob/master/Tydzien-4/homepage/img/Animation.gif" alt="demo_Personal homepage4" width="500" height="600">
+<img src="https://github.com/dominikblak/Frontend-YC/blob/master/Tydzien-4/homepage/img/Animation.gif" alt="demo_Personal homepage4" >
 - BEM
 - CSS (tabels,list,normalize)
 - JS
