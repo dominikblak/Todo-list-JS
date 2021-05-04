@@ -47,7 +47,7 @@ HTML,CSS,JS:
 ##
 ### Currency-converter :
 Currency converter
-<img src="https://github.com/dominikblak/Frontend-YC/blob/master/Tydzien-5/currency-converter/img/Animation_currency_converter5.gif" alt="demo_Personal homepage4" >
+<img src="https://github.com/dominikblak/Frontend-YC/blob/master/Tydzien-5/currency-converter/img/Animation_currency_converter5.gif" alt="demo_Personal homepage4">
 HTML,CSS,JS :
 - OpenGrpah
 - icon
