@@ -3,20 +3,20 @@
     console.log("Witaj Neo w Matriksie ;-)");
   }
   const buttonPhoto = document.querySelector(".js-buttonChangePhoto");
-  const jsLogo = document.querySelector(".js-jsLogo");
-  const myPhoto = document.querySelector(".js-myPhoto");
   const container = document.querySelector(".js-container");
-  const body = document.querySelector(".js-body");
 
   const changeColorFont = () => {
     container.classList.toggle("container--changeFontColor");
   };
   const changeBackground = () => {
+    const body = document.querySelector(".js-body");
     body.classList.toggle("body--backgroundWhite");
     container.classList.toggle("container--fontBlack");
   };
 
   const changePhoto = () => {
+    const jsLogo = document.querySelector(".js-jsLogo");
+    const myPhoto = document.querySelector(".js-myPhoto");
     jsLogo.classList.toggle("hidden");
     myPhoto.classList.toggle("hidden");
     if (myPhoto.classList.contains("hidden")) {
