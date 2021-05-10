@@ -15,6 +15,9 @@
   margin: 0px auto;
   padding: 10px;
 }
+.container_fieldset {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
 .container__btn {
   display: block;
   margin: 30px auto 10px;
