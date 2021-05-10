@@ -2,9 +2,6 @@
   function welcome() {
     console.log("Witaj Neo w Matriksie ;-)");
   }
-
-  const buttonFont = document.querySelector(".js-buttonFont");
-  const buttonBackground = document.querySelector(".js-buttonBackground");
   const buttonPhoto = document.querySelector(".js-buttonChangePhoto");
   const jsLogo = document.querySelector(".js-jsLogo");
   const myPhoto = document.querySelector(".js-myPhoto");
@@ -28,12 +25,14 @@
       buttonPhoto.innerHTML = "Pokaż logo";
     }
   };
-  buttonFont.addEventListener("click", changeColorFont);
-  buttonBackground.addEventListener("click", changeBackground);
-  buttonPhoto.addEventListener("click", changePhoto);
 
   const init = () => {
     welcome();
+    const buttonFont = document.querySelector(".js-buttonFont");
+    const buttonBackground = document.querySelector(".js-buttonBackground");
+    buttonFont.addEventListener("click", changeColorFont);
+    buttonBackground.addEventListener("click", changeBackground);
+    buttonPhoto.addEventListener("click", changePhoto);
   };
   init();
 }
