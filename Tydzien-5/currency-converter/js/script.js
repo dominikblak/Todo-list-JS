@@ -28,7 +28,7 @@
       const choiceElement = document.querySelector(".js-container");
       const amountValue = +amountElement.value;
       const choiceValue = choiceElement.value;
-      let result = calculateResult(amountValue, choiceValue);
+      const result = calculateResult(amountValue, choiceValue);
 
       upadteResultText(amountValue, result, choiceValue);
     };

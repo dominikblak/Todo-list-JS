@@ -2,7 +2,7 @@
   function welcome() {
     console.log("Witaj Neo w Matriksie ;-)");
   }
-  welcome();
+
   const buttonFont = document.querySelector(".js-buttonFont");
   const buttonBackground = document.querySelector(".js-buttonBackground");
   const buttonPhoto = document.querySelector(".js-buttonChangePhoto");
@@ -31,4 +31,9 @@
   buttonFont.addEventListener("click", changeColorFont);
   buttonBackground.addEventListener("click", changeBackground);
   buttonPhoto.addEventListener("click", changePhoto);
+
+  const init = () => {
+    welcome();
+  };
+  init();
 }
