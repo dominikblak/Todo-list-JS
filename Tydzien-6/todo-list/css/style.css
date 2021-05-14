@@ -1,3 +1,16 @@
 html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+body {
+  background-color: #e6e6e6;
   font-family: "Montserrat", sans-serif;
+}
+
+button {
+  cursor: pointer;
 }
