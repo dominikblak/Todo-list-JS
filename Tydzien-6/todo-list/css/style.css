@@ -1,9 +1,16 @@
 html {
-  /* font-family: "Montserrat", sans-serif; */
+  box-sizing: border-box;
 }
-button {
-  cursor: pointer;
+*,
+::after,
+::before {
+  box-sizing: inherit;
 }
 body {
-  background-color: hsl(0, 0%, 90%);
+  background-color: #e6e6e6;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  cursor: pointer;
 }
