@@ -1,0 +1,11 @@
+.container {
+  font-family: "Montserrat", sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.container-header {
+  text-align: left;
+  margin-top: 100px;
+  font-weight: 900;
+}

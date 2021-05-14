@@ -1,3 +1,9 @@
 html {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+}
+button {
+  cursor: pointer;
+}
+body {
+  background-color: hsl(0, 0%, 90%);
 }
