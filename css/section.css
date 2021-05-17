@@ -12,3 +12,14 @@
   margin: 10px;
   padding: 10px;
 }
+.section-buttonTask {
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}
+.section-buttonTask:hover {
+  background-color: hsl(180, 100%, 30%);
+}
