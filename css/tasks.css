@@ -3,6 +3,12 @@
   padding: 10px;
   list-style: none;
 }
+.tasks__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
 .tasks__button {
   height: 25px;
   width: 25px;
