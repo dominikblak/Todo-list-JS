@@ -43,7 +43,7 @@
       htmlString += `<li class="tasks__list" ${task.done ? ' style="text-decoration : line-through"' : ""}>
       <button class="task__button js-done"></button>
       <span class="task__content">${task.content}</span>
-      <button class=" task__button--remove js-remove">&#128465</button>
+      <button class=" task__button  task__button--remove js-remove">&#128465</button>
       </li>`;
     }
     document.querySelector(".js-tasks").innerHTML = htmlString;

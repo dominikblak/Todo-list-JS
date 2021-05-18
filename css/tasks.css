@@ -18,10 +18,7 @@
 }
 .task__button--remove {
   color: white;
-  height: 30px;
-  width: 30px;
   background-color: red;
-  border: none;
 }
 .task__content {
   flex-grow: 1;
