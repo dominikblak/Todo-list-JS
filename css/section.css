@@ -15,6 +15,7 @@
 .section-tasks {
   margin: 10px;
   padding: 10px;
+  list-style: none;
 }
 .section-buttonAddTask {
   cursor: pointer;
