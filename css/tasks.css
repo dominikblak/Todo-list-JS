@@ -15,6 +15,10 @@
   width: 30px;
   background-color: green;
   border: none;
+  color: white;
+}
+.task__button--remove {
+  background-color: red;
 }
 .task__button--remove {
   color: white;
