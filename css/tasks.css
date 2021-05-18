@@ -17,13 +17,19 @@
   border: none;
   color: white;
 }
+.task__button:hover {
+  background-color: hsl(120, 100%, 35%);
+}
 .task__button--remove {
   background-color: red;
 }
-.task__button--done {
-  background-color: violet;
+.task__button--remove:hover {
+  background-color: hsl(0, 100%, 70%);
 }
 .task__content {
   flex-grow: 1;
   margin: 10px;
+}
+.task__content--done {
+  text-decoration: line-through;
 }
