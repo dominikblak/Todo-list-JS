@@ -1,9 +1,10 @@
 .container {
   max-width: 815px;
   margin: 0 auto;
+  padding: 10px;
 }
 .container__header {
   text-align: left;
-  margin-top: 100px;
+  margin-top: 20px;
   font-weight: 700;
 }

@@ -29,6 +29,8 @@
 .task__content {
   flex-grow: 1;
   margin: 10px;
+  word-break: break-all;
+  flex-basis: 100%;
 }
 .task__content--done {
   text-decoration: line-through;
