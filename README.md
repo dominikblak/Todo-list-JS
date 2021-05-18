@@ -4,7 +4,7 @@
 [Todo-list](https://dominikblak.github.io/TodoList/)
 ### Description
 Currency converter - Currency converter from PLN to EUR, USD, GBP.
-<img src="https://github.com/dominikblak/Currency-converter/blob/master/img/Animation_currency_converter.gif" alt="demo_Currency_converter">
+<img src="https://github.com/dominikblak/TodoList/blob/master/img/Animation.gif" alt="demo_todo_list">
 #### Technology
 - HTML
 - CSS
