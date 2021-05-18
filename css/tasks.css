@@ -20,9 +20,8 @@
 .task__button--remove {
   background-color: red;
 }
-.task__button--remove {
-  color: white;
-  background-color: red;
+.task__button--done {
+  background-color: violet;
 }
 .task__content {
   flex-grow: 1;
