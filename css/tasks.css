@@ -10,20 +10,20 @@
   align-items: center;
   margin-bottom: 20px;
 }
-.tasks__button {
+.task__button {
   height: 30px;
   width: 30px;
   background-color: green;
   border: none;
 }
-.tasks__button--remove {
+.task__button--remove {
   color: white;
   height: 30px;
   width: 30px;
   background-color: red;
   border: none;
 }
-.tasks__content {
+.task__content {
   flex-grow: 1;
   margin: 10px;
 }
