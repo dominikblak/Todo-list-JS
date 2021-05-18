@@ -1,6 +1,7 @@
 .container {
   max-width: 815px;
   margin: 0 auto;
+  padding: 10px;
 }
 .container__header {
   text-align: left;
