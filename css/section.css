@@ -12,12 +12,7 @@
   grid-template-columns: 1fr auto;
   padding: 10px;
 }
-.section__tasks {
-  margin: 10px;
-  padding: 10px;
-  list-style: none;
-}
-.section__buttonAddTask {
+.section__button {
   cursor: pointer;
   background-color: teal;
   color: white;
@@ -26,6 +21,12 @@
   border: none;
   margin-left: 10px;
 }
-.section__buttonAddTask:hover {
+.section__button:hover {
   background-color: hsl(180, 100%, 30%);
+}
+.section__square {
+  height: 25px;
+  width: 25px;
+  background-color: green;
+  border: none;
 }
