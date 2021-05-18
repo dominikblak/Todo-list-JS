@@ -3,7 +3,7 @@
 ## Demo
 [Todo-list](https://dominikblak.github.io/TodoList/)
 ### Description
-Currency converter - Currency converter from PLN to EUR, USD, GBP.
+Todo-list - responsive to-do list with the ability to delete and add sentences
 <img src="https://github.com/dominikblak/TodoList/blob/master/img/Animation.gif" alt="demo_todo_list">
 #### Technology
 - HTML
