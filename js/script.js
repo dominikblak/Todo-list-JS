@@ -9,6 +9,10 @@
       done: true,
     },
   ];
+  const resetTask = (newTask) => {
+    newTask.value = "";
+    newTask.focus();
+  };
   const addNewTask = (newTaskContent) => {
     tasks.push({
       content: newTaskContent,
@@ -40,10 +44,11 @@
   const render = () => {
     let htmlString = "";
     for (const task of tasks) {
-      htmlString += `<li ${task.done ? ' style="text-decoration : line-through"' : ""}>
-      <button class="tasks__button js-done"></button>
-      ${task.content}
-      <button class="js-remove">Usuń</button>
+      htmlString += `<li class="tasks__list"}>
+      <button class="task__button js-done">${task.done ? "&#10004" : ""}</button>
+      <span class="task__content" ${task.done ? "task__content--done" : ""}>
+      ${task.content}</span>
+      <button class=" task__button  task__button--remove js-remove">&#128465</button>
       </li>`;
     }
     document.querySelector(".js-tasks").innerHTML = htmlString;
@@ -52,10 +57,12 @@
   const onFormSubmit = (event) => {
     event.preventDefault();
     const newTaskContent = document.querySelector(".js-newTask").value.trim();
+    const newTask = document.querySelector(".js-newTask");
     if (newTaskContent === "") {
       return;
     }
     addNewTask(newTaskContent);
+    resetTask(newTask);
   };
   const init = () => {
     render();

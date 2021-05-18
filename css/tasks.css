@@ -3,9 +3,33 @@
   padding: 10px;
   list-style: none;
 }
-.tasks__button {
-  height: 25px;
-  width: 25px;
+.tasks__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.task__button {
+  height: 30px;
+  width: 30px;
   background-color: green;
   border: none;
+  color: white;
+}
+.task__button:hover {
+  background-color: hsl(120, 100%, 35%);
+}
+.task__button--remove {
+  background-color: red;
+}
+.task__button--remove:hover {
+  background-color: hsl(0, 100%, 70%);
+}
+.task__content {
+  flex-grow: 1;
+  margin: 10px;
+}
+.task__content--done {
+  text-decoration: line-through;
 }
