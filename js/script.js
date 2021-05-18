@@ -1,14 +1,5 @@
 {
-  const tasks = [
-    {
-      content: "nagrać lekcję",
-      done: false,
-    },
-    {
-      content: "zjeść pierogi",
-      done: true,
-    },
-  ];
+  const tasks = [];
   const resetTask = (newTask) => {
     newTask.value = "";
     newTask.focus();
