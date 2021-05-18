@@ -27,7 +27,6 @@
   background-color: hsl(0, 100%, 70%);
 }
 .task__content {
-  flex-grow: 1;
   margin: 10px;
   word-break: break-all;
   flex-basis: 100%;
