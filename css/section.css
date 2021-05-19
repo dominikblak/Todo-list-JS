@@ -7,27 +7,3 @@
   padding: 20px;
   margin: 10px 0px;
 }
-.section__form {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  padding: 20px;
-}
-.section__button {
-  cursor: pointer;
-  background-color: teal;
-  color: white;
-  padding: 10px;
-  cursor: pointer;
-  border: none;
-  margin-left: 10px;
-}
-.section__button:hover {
-  background-color: hsl(180, 100%, 30%);
-}
-.section__button:active {
-  background-color: hsl(180, 100%, 40%);
-}
-.section__input {
-  border: 2px solid #e6e6e6;
-  padding: 10px;
-}
