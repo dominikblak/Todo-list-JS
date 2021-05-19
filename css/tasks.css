@@ -20,11 +20,17 @@
 .task__button:hover {
   background-color: hsl(120, 100%, 35%);
 }
+.task__button:active {
+  background-color: hsl(120, 100%, 45%);
+}
 .task__button--remove {
   background-color: red;
 }
 .task__button--remove:hover {
   background-color: hsl(0, 100%, 70%);
+}
+.task__button--remove:active {
+  background-color: hsl(0, 100%, 80%);
 }
 .task__content {
   margin: 10px;

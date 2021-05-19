@@ -24,6 +24,9 @@
 .section__button:hover {
   background-color: hsl(180, 100%, 30%);
 }
+.section__button:active {
+  background-color: hsl(180, 100%, 40%);
+}
 .section__input {
   border: 2px solid #e6e6e6;
   padding: 10px;
