@@ -33,6 +33,7 @@
   background-color: hsl(0, 100%, 80%);
 }
 .task__content {
+  border-bottom: 2px solid #e6e6e6;
   margin: 10px;
   word-break: break-all;
   flex-basis: 100%;
