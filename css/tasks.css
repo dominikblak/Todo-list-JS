@@ -1,6 +1,6 @@
 .tasks {
-  margin: 10px;
-  padding: 10px;
+  margin: 15px;
+  padding: 15px;
   list-style: none;
 }
 .tasks__list {
@@ -8,7 +8,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #e6e6e6;
 }
 .task__button {
   height: 30px;
@@ -33,8 +34,7 @@
   background-color: hsl(0, 100%, 80%);
 }
 .task__content {
-  border-bottom: 2px solid #e6e6e6;
-  margin: 10px;
+  margin: 15px;
   word-break: break-all;
   flex-basis: 100%;
 }

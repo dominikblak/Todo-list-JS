@@ -4,13 +4,13 @@
 }
 .section__header {
   border-bottom: 2px solid #e6e6e6;
-  padding: 10px;
+  padding: 20px;
   margin: 10px 0px;
 }
 .section__form {
   display: grid;
   grid-template-columns: 1fr auto;
-  padding: 10px;
+  padding: 20px;
 }
 .section__button {
   cursor: pointer;
