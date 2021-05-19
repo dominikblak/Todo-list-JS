@@ -26,3 +26,12 @@
   border: 2px solid #e6e6e6;
   padding: 10px;
 }
+@media (max-width: 767px) {
+  .form {
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+  }
+  .form__button {
+    margin-left: 0px;
+  }
+
