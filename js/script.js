@@ -1,23 +1,28 @@
 {
   const tasks = [];
+
   const resetTask = (newTask) => {
     newTask.value = "";
     newTask.focus();
   };
+
   const addNewTask = (newTaskContent) => {
     tasks.push({
       content: newTaskContent,
     });
     render();
   };
+
   const removeTask = (taskIndex) => {
     tasks.splice(taskIndex, 1);
     render();
   };
+
   const toggleTaskDone = (taskIndex) => {
     tasks[taskIndex].done = !tasks[taskIndex].done;
     render();
   };
+
   const bindEvents = () => {
     const removeButtons = document.querySelectorAll(".js-remove");
     removeButtons.forEach((removeButton, index) => {
@@ -25,6 +30,7 @@
         removeTask(index);
       });
     });
+
     const toogleDoneButtons = document.querySelectorAll(".js-done");
     toogleDoneButtons.forEach((toggleDoneButton, index) => {
       toggleDoneButton.addEventListener("click", () => {
@@ -32,6 +38,7 @@
       });
     });
   };
+
   const render = () => {
     let htmlString = "";
     for (const task of tasks) {
@@ -45,6 +52,7 @@
     document.querySelector(".js-tasks").innerHTML = htmlString;
     bindEvents();
   };
+
   const onFormSubmit = (event) => {
     event.preventDefault();
     const newTask = document.querySelector(".js-newTask");
@@ -56,6 +64,7 @@
     addNewTask(newTaskContent);
     resetTask(newTask);
   };
+
   const init = () => {
     render();
     const form = document.querySelector(".js-form");
