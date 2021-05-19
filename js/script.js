@@ -50,6 +50,7 @@
     const newTask = document.querySelector(".js-newTask");
     const newTaskContent = newTask.value.trim();
     if (newTaskContent === "") {
+      resetTask(newTask);
       return;
     }
     addNewTask(newTaskContent);
