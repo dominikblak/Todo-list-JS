@@ -14,7 +14,7 @@ Todo-list - responsive to-do list with the ability to delete and add tasks
 ##### Author
 Dominik Blak
 
-How to reach me : 
-✉️ bldominikak@gmail.com 
+How to reach me : </br>
+✉️ bldominikak@gmail.com </br>
 👪 https://www.linkedin.com/in/dominik-blak-060416176/
 
