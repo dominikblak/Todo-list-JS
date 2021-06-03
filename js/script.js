@@ -43,7 +43,7 @@
   const renderButtonsCompleted = () => {
     let buttonsCompletedHTML = "";
     if (tasks.length > 0) {
-      buttonsCompletedHTML += `<button>Ukryj ukończone</button><button>Ukończ wszytskie</button>`;
+      buttonsCompletedHTML += `<button class="section__button">Ukryj ukończone</button><button class="section__button">Ukończ wszytskie</button>`;
     }
     document.querySelector(".js-buttonsCompleted").innerHTML = buttonsCompletedHTML;
   };

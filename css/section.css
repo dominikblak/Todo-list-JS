@@ -18,4 +18,6 @@
   display: grid;
 }
 .section__button {
+  border: none;
+  background-color: white;
 }
