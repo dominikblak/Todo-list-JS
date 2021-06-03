@@ -40,7 +40,13 @@
       });
     });
   };
-
+  const renderButtonsCompleted = () => {
+    let buttonsCompletedHTML = "";
+    if (tasks.length > 0) {
+      buttonsCompletedHTML += `<button>Test</button>`;
+    }
+    document.querySelector(".js-buttonsCompleted").innerHTML = buttonsCompletedHTML;
+  };
   const render = () => {
     let htmlString = "";
     for (const task of tasks) {
@@ -52,7 +58,9 @@
       </li>`;
     }
     document.querySelector(".js-tasks").innerHTML = htmlString;
+
     bindEvents();
+    renderButtonsCompleted();
   };
 
   const onFormSubmit = (event) => {
