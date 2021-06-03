@@ -1,6 +1,7 @@
 .tasks {
-  margin: 15px;
-  padding: 15px;
+  margin-top: 15px;
+  background-color: white;
+  padding: 45px 15px 45px;
   list-style: none;
 }
 
