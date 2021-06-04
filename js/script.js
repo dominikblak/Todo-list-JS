@@ -30,6 +30,7 @@
       ...tasks,
       done: true,
     }));
+    render();
   };
 
   const bindEvents = () => {
@@ -50,7 +51,7 @@
   const renderButtonsCompleted = () => {
     let buttonsCompletedHTML = "";
     if (tasks.length > 0) {
-      buttonsCompletedHTML += `<button class="section__button">Ukryj ukończone</button><button class="section__button">Ukończ wszytskie</button>`;
+      buttonsCompletedHTML += `<button class="section__button js-buttonCompleted">Ukryj ukończone</button><button class="section__button js-buttonCompleted">Ukończ wszytskie</button>`;
     }
     document.querySelector(".js-buttonsCompleted").innerHTML = buttonsCompletedHTML;
   };
