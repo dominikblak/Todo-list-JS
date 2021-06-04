@@ -32,6 +32,10 @@
     }));
     render();
   };
+  const toggleTasksAllDone = () => {
+    hideDoneTasks = !hideDoneTasks;
+    render();
+  };
 
   const bindEvents = () => {
     const removeButtons = document.querySelectorAll(".js-remove");
