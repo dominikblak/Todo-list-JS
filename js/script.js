@@ -32,9 +32,17 @@
     }));
     render();
   };
-  const toggleTasksAllDone = () => {
+  const toggleTasksDone = () => {
     hideDoneTasks = !hideDoneTasks;
     render();
+  };
+  const bindToggleTasksDone = () => {
+    const buttonToggleCompleted = document.querySelector(".js-buttonToggleCompleted");
+    if (buttonToggleCompleted) {
+      buttonToggleCompleted.addEventListener("click", () => {
+        toggleTasksDone();
+      });
+    }
   };
 
   const bindEvents = () => {
@@ -55,7 +63,10 @@
   const renderButtonsCompleted = () => {
     let buttonsCompletedHTML = "";
     if (tasks.length > 0) {
-      buttonsCompletedHTML += `<button class="section__button js-buttonCompleted">Ukryj ukończone</button><button class="section__button js-buttonCompleted">Ukończ wszytskie</button>`;
+      buttonsCompletedHTML += `<button class="section__button js-buttonToggleCompleted">
+      ${
+        hideDoneTasks ? "Pokaż" : "Ukryj"
+      } ukończone</button><button class="section__button js-buttonToggleAllCompleted">Ukończ wszytskie</button>`;
     }
     document.querySelector(".js-buttonsCompleted").innerHTML = buttonsCompletedHTML;
   };
@@ -72,6 +83,7 @@
     document.querySelector(".js-tasks").innerHTML = htmlString;
 
     bindEvents();
+    bindToggleTasksDone();
     renderButtonsCompleted();
   };
 
