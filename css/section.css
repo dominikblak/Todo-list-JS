@@ -11,13 +11,16 @@
 }
 .section__tasks {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
 }
 .section_buttonsCompleted {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
 .section__button {
   border: none;
   background-color: white;
+  color: teal;
 }
