@@ -1,5 +1,6 @@
 {
   let tasks = [];
+  let hideDoneTasks = false;
 
   const resetTask = (newTask) => {
     newTask.value = "";
@@ -23,6 +24,12 @@
       ...tasks.slice(taskIndex + 1),
     ];
     render();
+  };
+  const tasksAllDone = () => {
+    tasks = tasks.map((task) => ({
+      ...tasks,
+      done: true,
+    }));
   };
 
   const bindEvents = () => {
