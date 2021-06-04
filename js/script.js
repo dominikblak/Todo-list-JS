@@ -41,6 +41,7 @@
     if (buttonToggleCompleted) {
       buttonToggleCompleted.addEventListener("click", () => {
         toggleTasksDone();
+        console.log("df");
       });
     }
   };
@@ -83,8 +84,8 @@
     document.querySelector(".js-tasks").innerHTML = htmlString;
 
     bindEvents();
-    bindToggleTasksDone();
     renderButtonsCompleted();
+    bindToggleTasksDone();
   };
 
   const onFormSubmit = (event) => {

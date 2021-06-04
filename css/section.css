@@ -20,7 +20,7 @@
   grid-gap: 20px;
 }
 .section__button {
-  /* border: none; */
+  border: none;
   background-color: white;
   color: teal;
   cursor: pointer;
