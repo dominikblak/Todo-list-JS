@@ -1,42 +1,53 @@
 .tasks {
-  margin: 15px;
-  padding: 15px;
+  margin-top: 15px;
+  background-color: white;
+  padding: 45px 15px 45px;
   list-style: none;
 }
 
 .tasks__list {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
   margin-bottom: 30px;
   border-bottom: 2px solid #e6e6e6;
 }
-
+.tasks__list--hiden {
+  display: none;
+}
 .task__button {
   height: 30px;
   width: 30px;
   background-color: green;
   border: none;
   color: white;
+  transition: 1s;
+  margin: 0 10px;
 }
 
 .task__button:hover {
   background-color: hsl(120, 100%, 35%);
+  transition: 1s;
 }
 
 .task__button:active {
   background-color: hsl(120, 100%, 45%);
+  transition: none;
 }
 
 .task__button--remove {
   background-color: red;
+  transition: 1s;
 }
 
 .task__button--remove:hover {
   background-color: hsl(0, 100%, 70%);
+  transition: 1s;
 }
 
 .task__button--remove:active {
   background-color: hsl(0, 100%, 80%);
+  transition: none;
 }
 
 .task__content {
