@@ -25,3 +25,6 @@
   color: teal;
   cursor: pointer;
 }
+.section__button:disabled {
+  color: black;
+}

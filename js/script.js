@@ -66,7 +66,9 @@
       buttonsCompletedHTML += `<button class="section__button js-buttonToggleCompleted">
       ${
         hideDoneTasks ? "Pokaż" : "Ukryj"
-      } ukończone</button><button class="section__button js-buttonToggleAllCompleted">Ukończ wszytskie</button>`;
+      } ukończone</button><button class="section__button js-buttonToggleAllCompleted" ${
+        tasks.every(({ done }) => done) ? "disabled" : ""
+      }>Ukończ wszytskie</button>`;
     }
     document.querySelector(".js-buttonsCompleted").innerHTML = buttonsCompletedHTML;
   };
