@@ -28,3 +28,11 @@
 .section__button:disabled {
   color: black;
 }
+.section__button:hover {
+  color: hsl(120, 100%, 35%);
+  transition: 1s;
+}
+.section__button:active {
+  color: hsl(120, 100%, 45%);
+  transition: none;
+}
