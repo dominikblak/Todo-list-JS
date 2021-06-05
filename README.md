@@ -3,7 +3,7 @@
 ## Demo
 [Todo-list](https://dominikblak.github.io/TodoList/)
 ### Description
-Todo-list - responsive to-do list with the ability to delete and add tasks
+To-do list - responsive to-do list with the ability to delete, add and hide tasks
 <img src="https://github.com/dominikblak/TodoList/blob/master/img/Animation.gif" alt="demo_todo_list">
 #### Technology
 - HTML
