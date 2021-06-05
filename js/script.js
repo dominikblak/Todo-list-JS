@@ -41,7 +41,6 @@
     if (buttonToggleCompleted) {
       buttonToggleCompleted.addEventListener("click", () => {
         toggleTasksDone();
-        console.log("df");
       });
     }
   };
@@ -71,7 +70,7 @@
     }
     document.querySelector(".js-buttonsCompleted").innerHTML = buttonsCompletedHTML;
   };
-  const render = () => {
+  const renderTasks = () => {
     let htmlString = "";
     for (const task of tasks) {
       htmlString += `
@@ -82,7 +81,9 @@
       </li>`;
     }
     document.querySelector(".js-tasks").innerHTML = htmlString;
-
+  };
+  const render = () => {
+    renderTasks();
     bindEvents();
     renderButtonsCompleted();
     bindToggleTasksDone();
