@@ -36,3 +36,15 @@
   color: hsl(120, 100%, 45%);
   transition: none;
 }
+@media (max-width: 767px) {
+  .section__tasks {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .section_buttonsCompleted {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 30px;
+    padding-bottom: 30px;
+  }
+}
