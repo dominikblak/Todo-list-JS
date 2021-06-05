@@ -52,14 +52,15 @@
       });
     }
   };
-  const bindEvents = () => {
+  const bindRemoveEvents = () => {
     const removeButtons = document.querySelectorAll(".js-remove");
     removeButtons.forEach((removeButton, index) => {
       removeButton.addEventListener("click", () => {
         removeTask(index);
       });
     });
-
+  };
+  const bindDoneEvents = () => {
     const toogleDoneButtons = document.querySelectorAll(".js-done");
     toogleDoneButtons.forEach((toggleDoneButton, index) => {
       toggleDoneButton.addEventListener("click", () => {
@@ -97,7 +98,8 @@
 
     bindToggleTasksDone();
     bindToggleAllTasksDone();
-    bindEvents();
+    bindRemoveEvents();
+    bindDoneEvents();
   };
 
   const onFormSubmit = (event) => {
