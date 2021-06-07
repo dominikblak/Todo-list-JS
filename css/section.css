@@ -1,7 +1,9 @@
 .section {
   background-color: white;
 }
-
+.section__content {
+  padding: 25px 15px 45px;
+}
 .section__header {
   display: grid;
   grid-template-columns: 1fr auto;
