@@ -1,7 +1,6 @@
 .tasks {
-  margin-top: 15px;
-  padding: 25px 15px 45px;
   list-style: none;
+  padding: 0px;
 }
 
 .tasks__list {
@@ -9,6 +8,7 @@
   grid-template-columns: auto 1fr auto;
   align-items: center;
   margin-bottom: 30px;
+
   border-bottom: 2px solid #e6e6e6;
 }
 .tasks__list--hiden {

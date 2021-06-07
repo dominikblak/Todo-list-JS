@@ -83,16 +83,14 @@
     document.querySelector(".js-buttonsCompleted").innerHTML = buttonsCompletedHTML;
   };
   const renderTasks = () => {
-    let htmlString = "";
-    for (const task of tasks) {
-      htmlString += `
-      <li class="tasks__list ${task.done && hideDoneTasks ? "tasks__list--hiden" : ""}"}>
+    const taskToHTML = (task) =>
+      `<li class="tasks__list ${task.done && hideDoneTasks ? "tasks__list--hiden" : ""}"}>
       <button class="task__button js-done">${task.done ? "&#10004" : ""}</button>
       <span class="task__content ${task.done ? 'task__content--done"' : '"'}>${task.content}</span>
       <button class=" task__button  task__button--remove js-remove">&#128465</button>
       </li>`;
-    }
-    document.querySelector(".js-tasks").innerHTML = htmlString;
+    const htmlString = document.querySelector(".js-tasks");
+    htmlString.innerHTML = tasks.map(taskToHTML).join("");
   };
   const render = () => {
     renderTasks();
