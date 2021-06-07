@@ -26,7 +26,11 @@
   cursor: pointer;
 }
 .section__button:disabled {
-  color: black;
+  color: grey;
+  cursor: default;
+}
+.section__button:disabled:hover {
+  color: grey;
 }
 .section__button:hover {
   color: hsl(120, 100%, 35%);
