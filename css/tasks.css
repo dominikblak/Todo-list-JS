@@ -1,7 +1,6 @@
 .tasks {
   margin-top: 15px;
-  background-color: white;
-  padding: 45px 15px 45px;
+  padding: 25px 15px 45px;
   list-style: none;
 }
 
@@ -23,6 +22,7 @@
   color: white;
   transition: 1s;
   margin: 0 10px;
+  cursor: pointer;
 }
 
 .task__button:hover {

@@ -2,7 +2,7 @@
   let tasks = [];
   let hideDoneTasks = false;
 
-  const resetTask = (newTask) => {
+  const clearInput = (newTask) => {
     newTask.value = "";
     newTask.focus();
   };
@@ -109,11 +109,11 @@
     const newTask = document.querySelector(".js-newTask");
     const newTaskContent = newTask.value.trim();
     if (newTaskContent === "") {
-      resetTask(newTask);
+      clearInput(newTask);
       return;
     }
     addNewTask(newTaskContent);
-    resetTask(newTask);
+    clearInput(newTask);
   };
 
   const init = () => {
