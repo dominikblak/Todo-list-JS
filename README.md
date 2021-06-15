@@ -1,4 +1,4 @@
-# Todo-list
+# Todo-list-JS
 ******
 ## Demo
 [Todo-list](https://dominikblak.github.io/TodoList/)
