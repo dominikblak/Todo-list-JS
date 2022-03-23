@@ -4,7 +4,7 @@
 Dominik Blak
 
 ## 🚀 Demo :
-[Todo-list](https://dominikblak.github.io/Todo-list-JS/)
+[Todo-list](https://dominikblak.github.io/Todo-list-JS/src/)
 
 ### 📖 Description :
 To-do list - responsive to-do list with the ability to delete, add and hide tasks
