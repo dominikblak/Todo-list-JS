@@ -8,7 +8,8 @@ Dominik Blak
 
 ### 📖 Description :
 To-do list - responsive to-do list with the ability to delete, add and hide tasks
-<img src="https://github.com/dominikblak/TodoList/blob/master/img/Animation.gif" alt="demo_todo_list">
+
+<img src="https://github.com/dominikblak/TodoList/blob/master/src/img/Animation.gif" alt="demo_todo_list">
 
 #### 🧰 Technology :
 - HTML
